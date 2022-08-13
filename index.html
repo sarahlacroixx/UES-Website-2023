@@ -30,32 +30,47 @@
 </head>
 
 <body>
-    <!-- MENU -->
+    <!-- NAV -->
     <div class="menu-container">
         <ol>
-            <a href="./"><img src="img/logo.png" class="menu-image"></a>
+            <a href="./index.html"><img src="img/logo.png" class="menu-image"></a>
             <div class="menu-items">
                 <li id="menu-about">
-                    <a href="./about" class="menu-top-item">Western</a>
-                    <div class="menu-dropdown" id="western-dropdown">
-                        <div class="dropdown-item"><a href="/temp/about.html">About Us</a></div>
-                        <div class="dropdown-item"><a href="./about#culture">Culture</a></div>
+                    <div class="menu-top-item">About Us</div>
+                    <div class="menu-dropdown" id="about-us-dropdown">
+                        <div class="dropdown-item"><a href="/temp/about.html">Who Are We?</a></div>
+                        <div class="dropdown-item"><a href="./about#culture">Culture and Traditions</a></div>
+                        <div class="dropdown-item"><a href="./team" class="menu-top-item">Team</a></div>
+                        <div class="dropdown-item"><a href="./spaces">UES Spaces</a></div>
                         <div class="dropdown-item menu-bottom-item"><a href="./about#contact">Contact Us</a></div>
                     </div>
                 </li>
+                <li id="menu-sponsors">
+                    <a href="./sponsors" class="menu-top-item">Sponsors</a>
+                </li>
                 <li id="menu-join">
-                    <a href="./join" class="menu-top-item">Join Us</a>
+                    <div href="./join" class="menu-top-item">Get Involved</div>
                     <div class="menu-dropdown" id="join-dropdown">
                         <div class="dropdown-item"><a href="./clubs">Clubs</a></div>
                         <div class="dropdown-item"><a href="./join">Conferences</a></div>
                         <div class="dropdown-item"><a href="./events">Events</a></div>
                         <div class="dropdown-item"><a href="./wellness">Wellness Committee</a></div>
-                        <div class="dropdown-item"><a href="./environment">Sustainability Committee</a></div>
-                        <div class="dropdown-item"><a href="./spaces">UES Spaces</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a href="./join#blog">Blogs</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./environment">Sustainability Committee</a></div>
+                        <!-- <div class="dropdown-item menu-bottom-item"><a href="./join#blog">Blogs</a></div> -->
                     </div>
                 </li>
-                <li id="menu-council">
+                <li id = "menu-events">
+                    <div class="menu-top-item">Events</div>
+                    <div class="menu-dropdown" id="events-dropdown">
+                        <div class="dropdown-item"><a href="./clubs">Calendar</a></div>
+                        <div class="dropdown-item"><a href="./join">Eng Goes to Ceeps</a></div>
+                        <div class="dropdown-item"><a href="./events">Eng vs. Ivey</a></div>
+                        <div class="dropdown-item"><a href="./wellness">Eng Formal</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./environment">Western Engineering Competition</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./join#blog">Professional Development Confrence</a></div>
+                    </div>
+                </li>
+                <!-- <li id="menu-council">
                     <a href="./team" class="menu-top-item">Team</a>
                     <div class="menu-dropdown" id="council-dropdown">
                         <div class="dropdown-item"><a href="./team">Executives</a></div>
@@ -65,10 +80,10 @@
                         <div class="dropdown-item menu-bottom-item"><a href="./commissioner#committee">Committee
                                 Members</a></div>
                     </div>
-                </li>
-                <li id="menu-admin">
-                    <a href="./admin" class="menu-top-item">Admin</a>
-                    <div class="menu-dropdown" id="admin-dropdown">
+                </li> -->
+                <li id="menu-documents">
+                    <a href="./admin" class="menu-top-item">Documents</a>
+                    <div class="menu-dropdown" id="documents-dropdown">
                         <div class="dropdown-item"><a
                                 href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Council
                                 Resources</a></div>
@@ -78,33 +93,33 @@
                         <div class="dropdown-item"><a
                                 href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Finances</a>
                         </div>
-                        <div class="dropdown-item"><a
+                        <div class="dropdown-item menu-bottom-item"><a
                                 href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Governing
                                 Docs</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a
+                        <!-- <div class="dropdown-item menu-bottom-item"><a
                                 href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">SRA</a>
-                        </div>
+                        </div> -->
                 </li>
-                <li id="menu-store">
+                <li id="menu-merch">
                     <a href="./store" class="menu-top-item">Eng Merch</a>
-                    <div class="menu-dropdown" id="store-dropdown">
+                    <div class="menu-dropdown" id="merch-dropdown">
                         <div class="dropdown-item"><a href="./shop">+/- Store</a></div>
                         <div class="dropdown-item"><a href="./jacket#boilersuit">Boilersuits</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a href="./jacket">Eng Jackets</a></div>
+                        <div class="dropdown-item"><a href="./jacket">Eng Jackets</a></div>
+                        <div class="dropdown-item"><a href="./shop">Engenda</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./jacket#boilersuit">Yearbook</a></div>
                     </div>
                 </li>
-                <li id="menu-coop">
-                    <a href="./coop" class="menu-top-item">Co-op</a>
-                    <div class="menu-dropdown" id="coop-dropdown">
-                        <div class="dropdown-item menu-bottom-item"><a
+                <li id="menu-rec">
+                    <a href="./coop" class="menu-top-item">Resources</a>
+                    <div class="menu-dropdown" id="rec-dropdown">
+                        <div class="dropdown-item"><a
                                 href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Academic
-                                Resources</a></div>
-                    </div>
-                </li>
-                <li id="menu-campaign">
-                    <a href="./campaign" class="menu-top-item">EDI</a>
-                    <div class="menu-dropdown" id="campaign-dropdown">
-                        <div class="dropdown-item menu-bottom-item"><a href="./action">Action Plan</a></div>
+                                Resources</a>
+                        </div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./action">Academic Reporting Form</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./action">EDI Action Plan</a></div> 
+                        <!-- edi in ./campaign? -->
                     </div>
                 </li>
             </div>
