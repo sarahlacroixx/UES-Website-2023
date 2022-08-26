@@ -8,7 +8,7 @@
     <meta name="description" content="Western UES">
     <meta name="author" content="UES">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css?v=1.0">
+    <link rel="stylesheet" href="../css/styles.css?v=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet">
@@ -26,36 +26,51 @@
 
         gtag('config', 'G-BSSNCP093Z');
     </script>
-
 </head>
 
 <body>
-    <!-- MENU -->
+    <!-- NAV -->
     <div class="menu-container">
         <ol>
-            <a href="./"><img src="img/logo.png" class="menu-image"></a>
+            <a href="../index.html"><img src="../img/logo.png" class="menu-image"></a>
             <div class="menu-items">
                 <li id="menu-about">
-                    <a href="./about" class="menu-top-item">Western</a>
-                    <div class="menu-dropdown" id="western-dropdown">
-                        <div class="dropdown-item"><a href="./about">About Us</a></div>
-                        <div class="dropdown-item"><a href="./about#culture">Culture</a></div>
+                    <div class="menu-top-item">About Us</div>
+                    <div class="menu-dropdown" id="about-us-dropdown">
+                        <div class="dropdown-item"><a href="./temp/about.html">Who Are We?</a></div>
+                        <div class="dropdown-item"><a href="./about#culture">Culture and Traditions</a></div>
+                        <div class="dropdown-item"><a href="./team">Team</a></div>
+                        <div class="dropdown-item"><a href="./spaces">UES Spaces</a></div>
                         <div class="dropdown-item menu-bottom-item"><a href="./about#contact">Contact Us</a></div>
                     </div>
                 </li>
+                <li id="menu-sponsors">
+                    <a href="./sponsors" class="menu-top-item">Sponsors</a>
+                </li>
                 <li id="menu-join">
-                    <a href="./join" class="menu-top-item">Join Us</a>
+                    <div href="./join" class="menu-top-item">Get Involved</div>
                     <div class="menu-dropdown" id="join-dropdown">
                         <div class="dropdown-item"><a href="./clubs">Clubs</a></div>
                         <div class="dropdown-item"><a href="./join">Conferences</a></div>
-                        <div class="dropdown-item"><a href="./events">Events</a></div>
                         <div class="dropdown-item"><a href="./wellness">Wellness Committee</a></div>
-                        <div class="dropdown-item"><a href="./environment">Sustainability Committee</a></div>
-                        <div class="dropdown-item"><a href="./spaces">UES Spaces</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a href="./join#blog">Blogs</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./environment">Sustainability Committee</a>
+                        </div>
+                        <!-- <div class="dropdown-item menu-bottom-item"><a href="./join#blog">Blogs</a></div> -->
                     </div>
                 </li>
-                <li id="menu-council">
+                <li id="menu-events">
+                    <div class="menu-top-item">Events</div>
+                    <div class="menu-dropdown" id="events-dropdown">
+                        <div class="dropdown-item"><a href="./clubs">Calendar</a></div>
+                        <div class="dropdown-item"><a href="./temp/engtoceeps.html">Eng Goes to Ceeps</a></div>
+                        <div class="dropdown-item"><a href="./events">Eng vs. Ivey</a></div>
+                        <div class="dropdown-item"><a href="./wellness">Eng Formal</a></div>
+                        <div class="dropdown-item"><a href="./environment">Western Engineering Competition</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./join#blog">Professional Development
+                                Confrence</a></div>
+                    </div>
+                </li>
+                <!-- <li id="menu-council">
                     <a href="./team" class="menu-top-item">Team</a>
                     <div class="menu-dropdown" id="council-dropdown">
                         <div class="dropdown-item"><a href="./team">Executives</a></div>
@@ -65,10 +80,10 @@
                         <div class="dropdown-item menu-bottom-item"><a href="./commissioner#committee">Committee
                                 Members</a></div>
                     </div>
-                </li>
-                <li id="menu-admin">
-                    <a href="./admin" class="menu-top-item">Admin</a>
-                    <div class="menu-dropdown" id="admin-dropdown">
+                </li> -->
+                <li id="menu-documents">
+                    <a href="./admin" class="menu-top-item">Documents</a>
+                    <div class="menu-dropdown" id="documents-dropdown">
                         <div class="dropdown-item"><a
                                 href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Council
                                 Resources</a></div>
@@ -78,33 +93,33 @@
                         <div class="dropdown-item"><a
                                 href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Finances</a>
                         </div>
-                        <div class="dropdown-item"><a
+                        <div class="dropdown-item menu-bottom-item"><a
                                 href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Governing
                                 Docs</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a
+                        <!-- <div class="dropdown-item menu-bottom-item"><a
                                 href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">SRA</a>
-                        </div>
+                        </div> -->
                 </li>
-                <li id="menu-store">
+                <li id="menu-merch">
                     <a href="./store" class="menu-top-item">Eng Merch</a>
-                    <div class="menu-dropdown" id="store-dropdown">
+                    <div class="menu-dropdown" id="merch-dropdown">
                         <div class="dropdown-item"><a href="./shop">+/- Store</a></div>
                         <div class="dropdown-item"><a href="./jacket#boilersuit">Boilersuits</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a href="./jacket">Eng Jackets</a></div>
+                        <div class="dropdown-item"><a href="./jacket">Eng Jackets</a></div>
+                        <div class="dropdown-item"><a href="./shop">Engenda</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./jacket#boilersuit">Yearbook</a></div>
                     </div>
                 </li>
-                <li id="menu-coop">
-                    <a href="./coop" class="menu-top-item">Co-op</a>
-                    <div class="menu-dropdown" id="coop-dropdown">
-                        <div class="dropdown-item menu-bottom-item"><a
+                <li id="menu-rec">
+                    <a href="./coop" class="menu-top-item">Resources</a>
+                    <div class="menu-dropdown" id="rec-dropdown">
+                        <div class="dropdown-item"><a
                                 href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Academic
-                                Resources</a></div>
-                    </div>
-                </li>
-                <li id="menu-campaign">
-                    <a href="./campaign" class="menu-top-item">EDI</a>
-                    <div class="menu-dropdown" id="campaign-dropdown">
-                        <div class="dropdown-item menu-bottom-item"><a href="./action">Action Plan</a></div>
+                                Resources</a>
+                        </div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./action">Academic Reporting Form</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./action">EDI Action Plan</a></div>
+                        <!-- edi in ./campaign? -->
                     </div>
                 </li>
             </div>
@@ -123,37 +138,43 @@
             <div class="mobile-menu-items" id="menu-mobile">
 
                 <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Western</a>
+                    <a class="mobile-menu-top-item">About Us</a>
                     <div class="mobile-menu-dropdown">
-                        <div class="mobile-dropdown-item"><a href="./about">About Us</a></div>
-                        <div class="mobile-dropdown-item"><a href="./about#culture">Culture</a></div>
+                        <div class="mobile-dropdown-item"><a href="./about">Who Are We?</a></div>
+                        <div class="mobile-dropdown-item"><a href="./about#culture">Culture and Traditions</a></div>
+                        <div class="mobile-dropdown-item"><a href="./about#culture">Team</a></div>
+                        <div class="mobile-dropdown-item"><a href="./about#culture">UES Spaces</a></div>
                         <div class="mobile-dropdown-item"><a href="./about#contact">Contact Us</a></div>
                     </div>
                 </li>
                 <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Join Us</a>
+                    <a href="./sponsors" class="mobile-menu-top-item">Sponsors</a>
+                </li>
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-top-item">Get Involved</a>
                     <div class="mobile-menu-dropdown">
                         <div class="mobile-dropdown-item"><a href="./clubs">Clubs</a></div>
                         <div class="mobile-dropdown-item"><a href="./join">Conferences</a></div>
-                        <div class="mobile-dropdown-item"><a href="./events">Events</a></div>
                         <div class="mobile-dropdown-item"><a href="./wellness">Wellness Committee</a></div>
                         <div class="mobile-dropdown-item"><a href="./sustainability">Sustainability Committee</a></div>
-                        <div class="mobile-dropdown-item"><a href="./spaces">UES Spaces</a></div>
-                        <div class="mobile-dropdown-item"><a href="./join#blog">Blogs</a></div>
+
                     </div>
                 </li>
                 <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Team</a>
+                    <a class="mobile-menu-top-item">Events</a>
                     <div class="mobile-menu-dropdown">
-                        <div class="mobile-dropdown-item"><a href="./team">Executives</a></div>
-                        <div class="mobile-dropdown-item"><a href="./commissioner#council">Council Members</a></div>
-                        <div class="mobile-dropdown-item"><a href="./commissioner#yearrep">Year Reps</a></div>
-                        <div class="mobile-dropdown-item"><a href="./commissioner#commissioner">Commissioners & Directors</a></div>
-                        <div class="mobile-dropdown-item"><a href="./commissioner#committee">Committee Members</a></div>
+                        <div class="mobile-dropdown-item"><a href="./team">Calendar</a></div>
+                        <div class="mobile-dropdown-item"><a href="./temp/engtoceeps.html">Eng Goes to Ceeps</a></div>
+                        <div class="mobile-dropdown-item"><a href="./commissioner#yearrep">Eng vs. Ivey</a></div>
+                        <div class="mobile-dropdown-item"><a href="./commissioner#commissioner">Eng Formal</a></div>
+                        <div class="mobile-dropdown-item"><a href="./commissioner#committee">Western Engineering
+                                Competition</a></div>
+                        <div class="mobile-dropdown-item"><a href="./commissioner#committee">Professional Development
+                                Confrence</a></div>
                     </div>
                 </li>
                 <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Admin</a>
+                    <a class="mobile-menu-top-item">Documents</a>
                     <div class="mobile-menu-dropdown">
                         <div class="mobile-dropdown-item"><a
                                 href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Council
@@ -167,9 +188,6 @@
                         <div class="mobile-dropdown-item"><a
                                 href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Governing
                                 Docs</a></div>
-                        <div class="mobile-dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">SRA</a>
-                        </div>
                 </li>
                 <li class="mobile-menu-item">
                     <a class="mobile-menu-top-item">Eng Merch</a>
@@ -177,20 +195,18 @@
                         <div class="mobile-dropdown-item"><a href="./shop">+/- Store</a></div>
                         <div class="mobile-dropdown-item"><a href="./jacket#boilersuit">Boilersuits</a></div>
                         <div class="mobile-dropdown-item"><a href="./jacket">Eng Jackets</a></div>
+                        <div class="mobile-dropdown-item"><a href="./jacket">Engenda</a></div>
+                        <div class="mobile-dropdown-item"><a href="./jacket">Yearbook</a></div>
                     </div>
                 </li>
                 <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Co-op</a>
+                    <a class="mobile-menu-top-item">Resources</a>
                     <div class="mobile-menu-dropdown">
                         <div class="mobile-dropdown-item"><a
                                 href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Academic
                                 Resources</a></div>
-                    </div>
-                </li>
-                <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">EDI</a>
-                    <div class="mobile-menu-dropdown" id="campaign-dropdown-mobile">
-                        <div class="mobile-dropdown-item mobile-menu-bottom-item"><a href="./action">Action Plan</a>
+                        <div class="mobile-dropdown-item"><a href="./jacket">Academic Reporting Form</a></div>
+                        <div class="mobile-dropdown-item mobile-menu-bottom-item"><a href="./action">EDI Action Plan</a>
                         </div>
                     </div>
                 </li>
@@ -199,58 +215,81 @@
     </div>
 
     <!-- RANDOM BACKGROUND SHAPES -->
-    <img src="./img/Blob3.svg" class="background-blob2">
-
-    <!-- ENG JACKET -->
+    <img src="../img/Blob3.svg" class="background-blob2">
+    <div class="title spaces-title">UES Spaces</div>
+    <!-- UES SPACES -->
     <div class="spaces-container">
-        <div class="title jacket-title">UES Lounge</div>
-
-        <div class="store-photo1" id="button-gallery-1">
-            <img src="img/spaces/lounge.png" style="border-radius: 40px;" height="300px">
-            <div class="store-photo-text">
-                <span style="position: absolute;height:20px;left:50%;top:50%;transform: translate(-50%,-50%);">UES Lounge</span>
-            </div>
-        </div>
-        <br>
-        Welcome to the UES Lounge, home to students who feel as though 40 hours in class a week just isn’t enough engineering for them! Come study, eat, socialize, game, and shop at the +/- store located just at the entrance. Having a long day? Take a quick nap on one of our comfy couches! This lounge is open at all times to engineering students, even on weekends (You will need your student ID to unlock the doors to SEB on weekends).
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-
-    <!-- BOILERSUIT -->
-    <div class="discord-container">
-        <div class="title boilersuit-title">UES Discord</div>
-        <div class="store-photo2">
-            <img src="img/spaces/discord.png" style="border-radius: 40px;" height="300px" id="button-gallery-2">
-            <div class="store-photo-text">
-                <span style="position: absolute;height:20px;left:50%;top:50%;transform: translate(-50%,-50%);">Discord</span>
-            </div>
-        </div>
-        <br>
-        The Official UES Discord is an online dedicated community space and resource for Western Engineering Students. Come to socialize online, and participate in online events including online gaming tournaments. All we ask is to follow the community guidelines and rules. The UES Discord is available at all times to engineering students. <a href="https://discord.gg/anSYhsxfch">Join now!</a>
-        <br>
-        <br>
-        <br>
-        <br> 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         
+        <!-- UES Lounge -->
+        <div>
+            <div class="title">UES Lounge</div>
+
+            <div class="photo-with-text" id="">
+                <img src="../img/spaces/lounge.png" style="border-radius: 40px; margin-right: 20px;" height="300vw">
+                <div class="lounge-text-container" style="margin: 20px 0px;">Welcome to the UES Lounge, home to students who feel as though 40 hours in class a week just isn’t enough engineering
+                for them! Come study, eat, socialize, game, and shop at the +/- store located just at the entrance. Having a long day?
+                Take a quick nap on one of our comfy couches! This lounge is open at all times to engineering students, even on weekends
+                (You will need your student ID to unlock the doors to SEB on weekends).</div>
+            </div>
+            
+        </div>
+        <!-- Uppey Downey Table -->
+        <div class="discord-container" style="margin: 30px 0;">
+            <div style="display: flex; justify-content: flex-end;">
+                <button class="button1"
+                    style="margin-right: 20px;"
+                    onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSeHoxTiGR_CmeITy6MmRim0n23s5uYixaO2eg3kQznw_fLUqQ/viewform?vc=0&c=0&w=1&flr=0'">Book
+                    Here</button>
+                <div class="title">Uppey Downey Table</div>
+            </div>
+            <div>
+                <!-- <img src="../img/spaces/discord.png" style="border-radius: 40px;" height="300px" id="button-gallery-2"> -->
+                <!-- <div class="store-photo-text">
+                        <span style="position: absolute;height:20px;left:50%;top:50%;transform: translate(-50%,-50%);">Discord</span>
+                    </div> -->
+            </div>
+            <br>
+            A mysterious table in Spencer Engineering Building.
+
+            Only Faculty, The UES, and UES Clubs and Teams may book the table.
+            
+            Bookings can be placed a maximum of 2 weeks in advance and are available from 9am to 5pm Mon to Fri.
+            
+            There are two slots, therefore the table space is to be split to accommodate two clubs/teams.
+            
+            VP Finance and Western Engineering Faculty reserve the right to cancel any booking.
+            
+            If asked by Faculty, vacate the table immediately. 
+           
+        
+        </div>
+
+        <div style="margin: 20px 0;">
+            <div style="display: flex;">
+                <div class="title">CMLP 57</div>
+                <button class="button1"
+                    style="margin: 0 20px;"
+                    onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSeHoxTiGR_CmeITy6MmRim0n23s5uYixaO2eg3kQznw_fLUqQ/viewform?vc=0&c=0&w=1&flr=0'">Book
+                    Here</button>
+            </div>
+            <br>
+            One booking per person per day (2 hours max on weekdays, 3 hours on weekends).
+            Failure to appear within 10 minutes of booking start will result in automatic booking cancellation.
+            Bookings can only be done up to 2 weeks in advance.
+            Recurring Bookings are not permitted at this time. If recurring bookings are occurring, other people will have priority
+            over the person repeating bookings. Contact VP Finance - ues.vpfinadmin@uwo.ca. - to request priority over a recurring
+            booking.
+            VP Finance reserves the right to cancel any booking. Reasons may include but are not limited to: rule violation,
+            excessive or abuse of booking system, event/ team/club priority.One booking per person per day (2 hours max on weekdays,
+            3 hours on weekends).
+            
+        </div>
     </div>
+
+    
 
     <!-- FOOTER -->
-    <div class="footer" style="position: fixed;bottom: 0;">
+    <div class="footer">
         <a href="/" class="footer-image">
             <img src="./img/logo_white.png" height="30px">
             <span style="margin-left:10px;">Western UES</span>
@@ -267,7 +306,7 @@
         </div>
     </div>
 
-    <script src="./js/script.js"></script>
+    <script src="../js/script.js"></script>
 
 </body>
 

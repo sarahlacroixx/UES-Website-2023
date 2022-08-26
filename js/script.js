@@ -63,7 +63,7 @@ function topMarginUp(element, dis, time, speed) {
 
 //CAROUSEL
 var i = 1;
-var carouselTime = 4000;
+var carouselTime = 7000;
 var carouselSize = 3;
 var carouselRun = 1;
 let circleColor = "rgba(53, 53, 53, 0.5)";
