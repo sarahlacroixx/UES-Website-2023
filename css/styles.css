@@ -94,6 +94,10 @@ body ol li a {
     color:var(--menuFontColor);
 }
 
+.menu-top-item {
+    white-space: nowrap;
+}
+
 .menu-top-item:hover {
     color:var(--mainColor);
     transition-duration: 500ms;
@@ -1049,7 +1053,7 @@ body ol li a {
 
 .ir-description {
     margin: 20px auto;
-
+    min-width: 50%;
 }
 
 /* Slideshow */
