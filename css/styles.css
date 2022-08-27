@@ -993,7 +993,7 @@ body ol li a {
 }
 
 @media screen and (max-width: 800px) {
-    .wec-title {
+    .wec-title, .iron-ring-title {
         height: 50vw;
     }
 }
@@ -1029,6 +1029,27 @@ body ol li a {
 
 .signup button:hover {
     background-color: var(--buttonPress);
+}
+
+/* Iron Ring Page */
+.iron-ring-title {
+    background-image: linear-gradient(0deg, var(--accentColorDark), var(--accentColorDark)), url(../img/events/ironring/IMG_4443.jpg);
+    min-height: 100%;
+    height: 30vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.ir-description {
+    margin: 20px auto;
+
 }
 
 /* Slideshow */
