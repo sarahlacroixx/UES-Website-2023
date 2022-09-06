@@ -8,7 +8,7 @@
     <meta name="description" content="Western UES">
     <meta name="author" content="UES">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css?v=1.0">
+    <link rel="stylesheet" href="../css/styles.css?v=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet">
@@ -197,12 +197,17 @@
             </div>
         </ol>
     </div>
+
+    <div class="sustainability-title">
+        <img src="../img/sustainability/UES_100 copy.png" alt="">
+        <div class="title" style="text-align: center;">UES Sustainability</div>
+    </div>
     
     <!-- SUSTAINABILITY  -->
     <div class="sustainability-container">
-        <div class="sustainability-title title">About Us</div>
+        <div class="title">About Us</div>
         
-        <img class="sustainability-logo" src="./img/sustainability/sustainability_logo.png">
+        <!-- <img class="sustainability-logo" src="../img/"> -->
         <br>
         The UES Sustainability Committee is a group of undergraduate students in the Faculty of Engineering that
         operates under the Undergraduate Engineering Society (UES). The goal of the committee is to run initiatives that
@@ -213,29 +218,19 @@
         If you are interested in attending our events, checking out our resources, or contacting us, you can find us
         through our instagram <a href="https://www.instagram.com/ues.sustainability/">@ues.sustainability</a> or email us at <a href="mailto:ues.sustainability@gmail.com">ues.sustainability@gmail.com</a>
 
+        Check out the western sustainability leaders program <a
+            href="https://sustainability.uwo.ca/news/2020/WSLP.html">here</a>.
         <hr class="line-break">
-        <div class="sustainability-title title">Events</div><br>
-
-        **To be updated throughout the year<br><br>
-
-        <div class="sustainability-title title">Sustainability at Western</div>
-        <br>
-        <strong>Western Sustainability Leaders Program</strong><br>
-
-        This program allows you to increase your sustainability knowledge through monthly webinars! Grow your network by
-        engaging with other like minded students from all Faculties at Western!
-        <br>
-        To sign up email <a href=mailto:sustainability@uwo.ca>sustainability@uwo.ca</a> with your name, email, program,
-        and year of study!
-        <br>
-        To find out more about the program, click <a href="https://sustainability.uwo.ca/news/2020/WSLP.html">here</a>.
-        <br>
-        To view last years recorded webinars, click <a
-            href="https://sustainability.uwo.ca/get_involved/western_sustainability_leaders_program.html">here</a>.
+        <div class="title">Events</div>
+        <div class="sust-events-container">
+            <div id="event1" class="sust-events">Sustainability Case Competition</div>
+            <div id="event1" class="sust-events">Industry Night</div>
+            <div id="event1" class="sust-events">Sustainability Competition</div>
+        </div><br>
             
         <hr class="line-break">
 
-        <div class="sustainability-title title">Sustainability Tips</div>
+        <div class="title">Sustainability Tips</div>
         <br>
         Trying to become more sustainable on a personal level can be a very daunting task in our society. However, there
         are many things we can do individually that are proven to be an effective way to reduce waste and GHG emissions.
@@ -243,7 +238,9 @@
         for a more sustainable future.
         <br>
 
-        <div class="sustainability-photo" style="background-image: url(./img/sustainability/diet.jpg);">
+        <div class="sustainability-tip-container"></div>
+
+        <div class="sustainability-photo" style="background-image: url(../img/sustainability/diet.jpg);">
             <div class="sustainability-subtitle">Diet</div>
         </div>
         <div class="sustainability-tip">
@@ -275,7 +272,7 @@
             better you feel!
         </div>
 
-        <div class="sustainability-photo" style="background-image: url(./img/sustainability/politics.jpg);">
+        <div class="sustainability-photo" style="background-image: url(../img/sustainability/politics.jpg);">
             <div class="sustainability-subtitle">Politics</div>
         </div>
         <div class="sustainability-tip">
@@ -295,7 +292,7 @@
             them. Emails of MP’s can be easily found <a href="https://www.ourcommons.ca/Members/en/search">here</a>.
         </div>
 
-        <div class="sustainability-photo" style="background-image: url(./img/sustainability/reduction.jpeg);">
+        <div class="sustainability-photo" style="background-image: url(../img/sustainability/reduction.jpeg);">
             <div class="sustainability-subtitle">Reduction</div>
         </div>
         <div class="sustainability-tip">
@@ -313,7 +310,7 @@
             back and think practicality about the item being purchased before you tap your credit card.
         </div>
 
-        <div class="sustainability-photo" style="background-image: url(./img/sustainability/water.jpg);">
+        <div class="sustainability-photo" style="background-image: url(../img/sustainability/water.jpg);">
             <div class="sustainability-subtitle">Water Hacks</div>
         </div>
         <div class="sustainability-tip">
@@ -323,10 +320,15 @@
             impact
             on water usage that we do not think of, here are a few:
             <br>
-            It takes an average of 10,000 litres of water to make a new pair of jeans
-            Per 100g serving, tofu requires approximately 6 times less water to produce than beef
-            The average shower head uses approximately 15 litres/min
-            On average, using a (newer) dishwasher saves more water compared to washing by hand.
+            <br>
+            <div class="sustainability-fact">
+            It takes an average of 10,000 litres of water to make a new pair of jeans</div>
+            <div class="sustainability-fact">
+            Per 100g serving, tofu requires approximately 6 times less water to produce than beef</div>
+            <div class="sustainability-fact">
+            The average shower head uses approximately 15 litres/min</div>
+            <div class="sustainability-fact">
+            On average, using a (newer) dishwasher saves more water compared to washing by hand.</div>
             <br>
             On top of these facts, heating water takes a great amount of energy and therefore releases GHG emissions.
             Washing your clothes in cold water uses approximately 90% less energy, and most laundry detergents now are
@@ -336,7 +338,6 @@
             next set of clothes. Find what works for you, sustainability is a process, enjoy the journey!
         </div>
     </div>
-
 
     <!-- FOOTER -->
     <div class="footer">
@@ -356,7 +357,26 @@
         </div>
     </div>
 
-    <script src="./js/script.js"></script>
+    <script>
+        let sustainPhoto = document.getElementsByClassName("sustainability-photo");
+            let sustainTip = document.getElementsByClassName("sustainability-tip");
+
+            for (let i = 0; i < sustainTip.length; i++) {
+                let state = 0;
+
+                sustainPhoto[i].addEventListener("click", function () {
+                    if (state == 0) {
+                        sustainTip[i].style.display = "block";
+                        state = 1;
+                    } else {
+                        sustainTip[i].style.display = "none";
+                        state = 0;
+                    }
+                });
+            }
+    </script>
+
+    <script src="../js/script.js"></script>
 
 </body>
 

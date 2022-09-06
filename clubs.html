@@ -347,7 +347,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/musical.jpeg">
+                            <img class="club-content-photo" src="./img/club/musical.jpeg" style="width: 20vw;">
                             <div class="club-content-name">Engineering Musical</div>
                             <div class="club-content-description">
                                 The Western Engineering Musical is a club that oversees the production of the annual
@@ -529,7 +529,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/iec.jpeg">
+                            <img class="club-content-photo" src="./img/club/iec.jpeg" style="width: 20vw;">
                             <div class="club-content-name">Innovation & Entrepreneurship Club</div>
                             <div class="club-content-description">
                                 The Western Engineering Innovation and Entrepreneurship Club aims to bridge the gap
@@ -1263,7 +1263,7 @@
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
                             <img class="club-content-photo" src="./img/club/women.jpeg">
-                            <div class="club-content-name">Aer Design</div>
+                            <div class="club-content-name">Women in Eng</div>
                             <div class="club-content-description">
                                 Women in Engineering at Western University is a student group working to empower and
                                 encourage current and perspective female students in the field of engineering. We
@@ -1300,6 +1300,56 @@
             </div>
         </div>
 
+        <div class="club-card">
+            <div class="club-photo" style="background-image: url(./img/club/women.jpeg);">
+                <div class="club-name-wrapper">
+                    <div class="club-name">Chem Eng Club</div>
+                </div>
+            </div>
+            <!-- CLUB CONTENT -->
+            <div class="club-content-wrapper" id="club-content">
+                <div class="club-content-bg">
+                    <div class="club-content">
+                        <div class="club-content-x" id="club-close"></div>
+                        <div class="club-content-text">
+                            <img class="club-content-photo" src="./img/club/women.jpeg">
+                            <div class="club-content-name">Chem E Club</div>
+                            <div class="club-content-description">
+                                <!-- Women in Engineering at Western University is a student group working to empower and
+                                encourage current and perspective female students in the field of engineering. We
+                                provide support and opportunities to increase women in engineering enrollment and
+                                retention. Our mission is to provide academic and social guidance to current female
+                                engineering students, and opportunities to network and build relationships with one
+                                another. WIE was created in 1989 to increase the female representation in Western's
+                                engineering program. Since then, female enrollment in Engineering at Western has
+                                increased from 9% to 22% (last year). WIE has initiated activities and events to
+                                encourage female engineering students to get to know each other, to help orient new
+                                female students to university life, to encourage female high school students to enter
+                                engineering, and to provide a support network for career development. -->
+                            </div>
+                            <div class="club-content-socials">
+                                <div class="club-content-socials-text">Join Us!</div>
+                                <div class="club-content-socials-icons">
+                                    <div class="club-content-socials-icon-wrapper">
+                                        <a href="https://www.instagram.com/womeninenguwo/"><img
+                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                        <a href="https://www.facebook.com/womeninenguwo"><img class="club-content-socials-icon"
+                                                src="./img/fb.png"></a>
+                                    </div>
+                                </div>
+                                <!-- <br>
+                                https://www.facebook.com/womeninenguwo
+                                <br>
+                                https://www.linkedin.com/company/women-in-eng-uwo/
+                                <br>
+                                https://womeninenguwo.ca/ -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </div>
 
@@ -1321,6 +1371,56 @@
         </div>
     </div>
 
+
+    <script>
+        function fadeIn(element) {
+            var op = 0.1; // initial opacity
+            element.style.display = "block";
+            var timer = setInterval(function () {
+                if (op >= 1) {
+                    clearInterval(timer);
+                }
+                element.style.opacity = op;
+                element.style.filter = "alpha(opacity=" + op * 100 + ")";
+                op += op * 0.1;
+            }, 8);
+        }
+
+        function fadeOut(element) {
+            var op = 1; // initial opacity
+            var timer = setInterval(function () {
+                if (op <= 0.1) {
+                    clearInterval(timer);
+                    element.style.display = "none";
+                }
+                element.style.opacity = op;
+                element.style.filter = "alpha(opacity=" + op * 100 + ")";
+                op -= op * 0.1;
+            }, 8);
+        }
+
+        //CLUBS
+        let clubContentBtn = document.getElementsByClassName("club-name-wrapper");
+        let clubCard = document.getElementsByClassName("club-name-wrapper");
+        let clubContentClose = document.getElementsByClassName("club-content-x");
+        //let clubContent = document.getElementById("club-content");
+
+        for (let i = 0; i < clubContentBtn.length; i++) {
+            clubContentBtn[i].addEventListener("click", function () {
+                fadeIn(
+                    clubContentBtn[i].parentElement.parentElement.querySelector(
+                        ".club-content-wrapper"
+                    )
+                );
+            });
+            clubContentClose[i].addEventListener("click", function () {
+                fadeOut(
+                    clubContentBtn[i].parentElement.parentElement.querySelector(
+                        ".club-content-wrapper"
+                    )
+                );
+            });
+        }</script>
     <script src="./js/script.js"></script>
 
 </body>
