@@ -52,7 +52,8 @@ body {
 /* MENU */
 .menu-container {
     display: flex;
-    margin-bottom: 12px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 body ol {
@@ -1713,6 +1714,7 @@ body ol li a {
 }
 
 .clubs-title {
+    margin-top: 20px;
     width: 100%;
     padding-bottom: 20px;
 }
@@ -1984,7 +1986,7 @@ body ol li a {
     align-items: center;
     justify-content: center;
     color: white;
-    margin: 30px 0px;
+    margin-bottom: 30px;
 }
 
 .sust-events-container {
