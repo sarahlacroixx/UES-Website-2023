@@ -12,10 +12,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="manifest" href="./site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BSSNCP093Z"></script>
@@ -33,80 +33,100 @@
     <!-- MENU -->
     <div class="menu-container">
         <ol>
-            <a href="./"><img src="img/logo.png" class="menu-image"></a>
+            <a href="../index.html"><img src="../img/logo.png" class="menu-image"></a>
             <div class="menu-items">
                 <li id="menu-about">
-                    <a href="./about" class="menu-top-item">Western</a>
-                    <div class="menu-dropdown" id="western-dropdown">
-                        <div class="dropdown-item"><a href="./about">About Us</a></div>
-                        <div class="dropdown-item"><a href="./about#culture">Culture</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a href="./about#contact">Contact Us</a></div>
+                    <div class="menu-top-item">About Us</div>
+                    <div class="menu-dropdown" id="about-us-dropdown">
+                        <div class="dropdown-item"><a href="./about.html">Who Are We?</a></div>
+                        <!-- <div class="dropdown-item"><a href="./about#culture">Culture and Traditions</a></div> -->
+                        <div class="dropdown-item"><a href="./team.html">Team</a></div>
+                        <div class="dropdown-item"><a href="./spaces.html">UES Spaces</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./about.html#contact">Contact Us</a>
+                        </div>
                     </div>
                 </li>
+                <!-- <li id="menu-sponsors">
+                    <a href="./sponsors" class="menu-top-item">Sponsors</a>
+                </li> -->
                 <li id="menu-join">
-                    <a href="./join" class="menu-top-item">Join Us</a>
+                    <div class="menu-top-item">Get Involved</div>
                     <div class="menu-dropdown" id="join-dropdown">
-                        <div class="dropdown-item"><a href="./clubs">Clubs</a></div>
-                        <div class="dropdown-item"><a href="./join">Conferences</a></div>
-                        <div class="dropdown-item"><a href="./events">Events</a></div>
-                        <div class="dropdown-item"><a href="./wellness">Wellness Committee</a></div>
-                        <div class="dropdown-item"><a href="./environment">Sustainability Committee</a></div>
-                        <div class="dropdown-item"><a href="./spaces">UES Spaces</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a href="./join#blog">Blogs</a></div>
+                        <div class="dropdown-item"><a href="./clubs.html">Clubs</a></div>
+                        <!-- <div class="dropdown-item"><a href="./join.html">Conferences</a></div> -->
+                        <div class="dropdown-item"><a href="https://wellnessforce.wixsite.com/website">Wellness
+                                Committee</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./environment.html">Sustainability
+                                Committee</a></div>
+                        <!-- <div class="dropdown-item menu-bottom-item"><a href="./join#blog">Blogs</a></div> -->
                     </div>
                 </li>
-                <li id="menu-council">
-                    <a href="./team" class="menu-top-item">Team</a>
-                    <div class="menu-dropdown" id="council-dropdown">
-                        <div class="dropdown-item"><a href="./team">Executives</a></div>
-                        <div class="dropdown-item"><a href="./commissioner#council">Council Members</a></div>
-                        <div class="dropdown-item"><a href="./commissioner#yearrep">Year Reps</a></div>
-                        <div class="dropdown-item"><a href="./commissioner#commissioner">Commissioners</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a href="./commissioner#committee">Committee
-                                Members</a></div>
+                <li id="menu-events">
+                    <a href="./events.html" class="menu-top-item">Events</a>
+                    <div class="menu-dropdown" id="events-dropdown">
+                        <div class="dropdown-item"><a href="./events.html">Calendar</a></div>
+                        <div class="dropdown-item"><a href="./engtoceeps.html">Eng Goes to Ceeps</a></div>
+                        <!-- <div class="dropdown-item"><a href="./hockey.html">Eng vs. Ivey</a></div> -->
+                        <div class="dropdown-item"><a href="./engformal.html">Eng Formal</a></div>
+                        <div class="dropdown-item"><a href="./wec.html">Western Engineering
+                                Competition</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./ironring.html">Iron Ring</a></div>
+                        <!-- <div class="dropdown-item menu-bottom-item"><a href="./join#blog">Professional Development
+                                Confrence</a></div> -->
                     </div>
                 </li>
-                <li id="menu-admin">
-                    <a href="./admin" class="menu-top-item">Admin</a>
-                    <div class="menu-dropdown" id="admin-dropdown">
+                <!-- <li id="menu-council">
+                        <a href="./team" class="menu-top-item">Team</a>
+                        <div class="menu-dropdown" id="council-dropdown">
+                            <div class="dropdown-item"><a href="./team">Executives</a></div>
+                            <div class="dropdown-item"><a href="./commissioner#council">Council Members</a></div>
+                            <div class="dropdown-item"><a href="./commissioner#yearrep">Year Reps</a></div>
+                            <div class="dropdown-item"><a href="./commissioner#commissioner">Commissioners</a></div>
+                            <div class="dropdown-item menu-bottom-item"><a href="./commissioner#committee">Committee
+                                    Members</a></div>
+                        </div>
+                    </li> -->
+                <li id="menu-documents">
+                    <a href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge"
+                        class="menu-top-item">Documents</a>
+                    <div class="menu-dropdown" id="documents-dropdown">
                         <div class="dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Council
+                                href="https://drive.google.com/drive/folders/1_IP8mRQPaFDlLw1kv9Rwgoh4Yl-92XYd">Council
                                 Resources</a></div>
                         <div class="dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Exec
+                                href="https://drive.google.com/drive/folders/1GCXwhqOACgfjTnRbzsrImtn6NvyKZyx6">Exec
                                 Updates</a></div>
                         <div class="dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Finances</a>
+                                href="https://drive.google.com/drive/folders/1CMy0ac0uJzmR5H6YCs6IkJmleIg4ga-z">Finances</a>
                         </div>
-                        <div class="dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Governing
+                        <div class="dropdown-item menu-bottom-item"><a
+                                href="https://drive.google.com/drive/folders/1sXUNgB0GCBY2o4pVlNRj7EzPy5AUqtsw">Governing
                                 Docs</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">SRA</a>
+                        <!-- <div class="dropdown-item menu-bottom-item"><a
+                                    href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">SRA</a>
+                            </div> -->
+                </li>
+                <li id="menu-merch">
+                    <a href="" class="menu-top-item">Eng Merch</a>
+                    <div class="menu-dropdown" id="merch-dropdown">
+                        <!-- <div class="dropdown-item"><a href="./store">+/- Store</a></div> -->
+                        <div class="dropdown-item"><a href="./jacket.html#boilersuit">Boilersuits</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./jacket.html">Eng Jackets</a></div>
+                        <!-- <div class="dropdown-item"><a href="./shop">Engenda</a></div> -->
+                        <!-- <div class="dropdown-item menu-bottom-item"><a href="./jacket#boilersuit">Yearbook</a></div> -->
+                    </div>
+                </li>
+                <!-- <li id="menu-rec">
+                        <a href="./coop" class="menu-top-item">Resources</a>
+                        <div class="menu-dropdown" id="rec-dropdown">
+                            <div class="dropdown-item"><a
+                                    href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Academic
+                                    Resources</a>
+                            </div>
+                            <div class="dropdown-item menu-bottom-item"><a href="./action">Academic Reporting Form</a></div>
+                            <div class="dropdown-item menu-bottom-item"><a href="./action">EDI Action Plan</a></div> 
                         </div>
-                </li>
-                <li id="menu-store">
-                    <a href="./store" class="menu-top-item">Eng Merch</a>
-                    <div class="menu-dropdown" id="store-dropdown">
-                        <div class="dropdown-item"><a href="./shop">+/- Store</a></div>
-                        <div class="dropdown-item"><a href="./jacket#boilersuit">Boilersuits</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a href="./jacket">Eng Jackets</a></div>
-                    </div>
-                </li>
-                <li id="menu-coop">
-                    <a href="./coop" class="menu-top-item">Co-op</a>
-                    <div class="menu-dropdown" id="coop-dropdown">
-                        <div class="dropdown-item menu-bottom-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Academic
-                                Resources</a></div>
-                    </div>
-                </li>
-                <li id="menu-campaign">
-                    <a href="./campaign" class="menu-top-item">EDI</a>
-                    <div class="menu-dropdown" id="campaign-dropdown">
-                        <div class="dropdown-item menu-bottom-item"><a href="./action">Action Plan</a></div>
-                    </div>
-                </li>
+                    </li> -->
             </div>
         </ol>
     </div>
@@ -123,84 +143,88 @@
             <div class="mobile-menu-items" id="menu-mobile">
 
                 <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Western</a>
+                    <a class="mobile-menu-top-item">About Us</a>
                     <div class="mobile-menu-dropdown">
-                        <div class="mobile-dropdown-item"><a href="./about">About Us</a></div>
-                        <div class="mobile-dropdown-item"><a href="./about#culture">Culture</a></div>
-                        <div class="mobile-dropdown-item"><a href="./about#contact">Contact Us</a></div>
+                        <div class="mobile-dropdown-item"><a href="./about.html">Who Are We?</a></div>
+                        <!-- <div class="mobile-dropdown-item"><a href="./about#culture">Culture and Traditions</a></div> -->
+                        <div class="mobile-dropdown-item"><a href="./team.html">Team</a></div>
+                        <div class="mobile-dropdown-item"><a href="./spaces.html">UES Spaces</a></div>
+                        <div class="mobile-dropdown-item"><a href="./about.html#contact">Contact Us</a></div>
+                    </div>
+                </li>
+                <!-- <li class="mobile-menu-item">
+                    <a href="./sponsors" class="mobile-menu-top-item">Sponsors</a>
+                </li> -->
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-top-item">Get Involved</a>
+                    <div class="mobile-menu-dropdown">
+                        <div class="mobile-dropdown-item"><a href="./clubs.html">Clubs</a></div>
+                        <!-- <div class="mobile-dropdown-item"><a href="./join">Conferences</a></div> -->
+                        <div class="mobile-dropdown-item"><a href="https://wellnessforce.wixsite.com/website">Wellness
+                                Committee</a></div>
+                        <div class="mobile-dropdown-item"><a href="./environment.html">Sustainability Committee</a>
+                        </div>
+
                     </div>
                 </li>
                 <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Join Us</a>
+                    <a class="mobile-menu-top-item">Events</a>
                     <div class="mobile-menu-dropdown">
-                        <div class="mobile-dropdown-item"><a href="./clubs">Clubs</a></div>
-                        <div class="mobile-dropdown-item"><a href="./join">Conferences</a></div>
-                        <div class="mobile-dropdown-item"><a href="./events">Events</a></div>
-                        <div class="mobile-dropdown-item"><a href="./wellness">Wellness Committee</a></div>
-                        <div class="mobile-dropdown-item"><a href="./sustainability">Sustainability Committee</a></div>
-                        <div class="mobile-dropdown-item"><a href="./spaces">UES Spaces</a></div>
-                        <div class="mobile-dropdown-item"><a href="./join#blog">Blogs</a></div>
+                        <div class="mobile-dropdown-item"><a href="./events.html">Calendar</a></div>
+                        <div class="mobile-dropdown-item"><a href="./engtoceeps.html">Eng Goes to Ceeps</a></div>
+                        <!-- <div class="mobile-dropdown-item"><a href="./hockey.html">Eng vs. Ivey</a></div> -->
+                        <div class="mobile-dropdown-item"><a href="./engformal.html">Eng Formal</a></div>
+                        <div class="mobile-dropdown-item"><a href="./wec.html">Western Engineering Competition</a>
+                        </div>
+                        <div class="mobile-dropdown-item"><a href="./ironring.html">Iron Ring</a></div>
+                        <!-- <div class="mobile-dropdown-item"><a href="./commissioner#committee">Professional Development
+                                Confrence</a></div> -->
                     </div>
                 </li>
                 <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Team</a>
-                    <div class="mobile-menu-dropdown">
-                        <div class="mobile-dropdown-item"><a href="./team">Executives</a></div>
-                        <div class="mobile-dropdown-item"><a href="./commissioner#council">Council Members</a></div>
-                        <div class="mobile-dropdown-item"><a href="./commissioner#yearrep">Year Reps</a></div>
-                        <div class="mobile-dropdown-item"><a href="./commissioner#commissioner">Commissioners & Directors</a></div>
-                        <div class="mobile-dropdown-item"><a href="./commissioner#committee">Committee Members</a></div>
-                    </div>
-                </li>
-                <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Admin</a>
+                    <a class="mobile-menu-top-item">Documents</a>
                     <div class="mobile-menu-dropdown">
                         <div class="mobile-dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Council
+                                href="https://drive.google.com/drive/folders/1_IP8mRQPaFDlLw1kv9Rwgoh4Yl-92XYd">Council
                                 Resources</a></div>
                         <div class="mobile-dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Exec
+                                href="https://drive.google.com/drive/folders/1GCXwhqOACgfjTnRbzsrImtn6NvyKZyx6">Exec
                                 Updates</a></div>
                         <div class="mobile-dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Finances</a>
+                                href="https://drive.google.com/drive/folders/1CMy0ac0uJzmR5H6YCs6IkJmleIg4ga-z">Finances</a>
                         </div>
                         <div class="mobile-dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Governing
+                                href="https://drive.google.com/drive/folders/1sXUNgB0GCBY2o4pVlNRj7EzPy5AUqtsw">Governing
                                 Docs</a></div>
-                        <div class="mobile-dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">SRA</a>
-                        </div>
                 </li>
                 <li class="mobile-menu-item">
                     <a class="mobile-menu-top-item">Eng Merch</a>
                     <div class="mobile-menu-dropdown">
-                        <div class="mobile-dropdown-item"><a href="./shop">+/- Store</a></div>
-                        <div class="mobile-dropdown-item"><a href="./jacket#boilersuit">Boilersuits</a></div>
-                        <div class="mobile-dropdown-item"><a href="./jacket">Eng Jackets</a></div>
+                        <!-- <div class="mobile-dropdown-item"><a href="./shop">+/- Store</a></div> -->
+                        <div class="mobile-dropdown-item"><a href="./jacket.html#boilersuit">Boilersuits</a></div>
+                        <div class="mobile-dropdown-item"><a href="./jacket.html">Eng Jackets</a></div>
+                        <!-- <div class="mobile-dropdown-item"><a href="./jacket">Engenda</a></div> -->
+                        <!-- <div class="mobile-dropdown-item"><a href="./jacket">Yearbook</a></div> -->
                     </div>
                 </li>
-                <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Co-op</a>
-                    <div class="mobile-menu-dropdown">
-                        <div class="mobile-dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Academic
-                                Resources</a></div>
-                    </div>
-                </li>
-                <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">EDI</a>
-                    <div class="mobile-menu-dropdown" id="campaign-dropdown-mobile">
-                        <div class="mobile-dropdown-item mobile-menu-bottom-item"><a href="./action">Action Plan</a>
+                <!-- <li class="mobile-menu-item">
+                        <a class="mobile-menu-top-item">Resources</a>
+                        <div class="mobile-menu-dropdown">
+                            <div class="mobile-dropdown-item"><a
+                                    href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Academic
+                                    Resources</a></div>
+                                    <div class="mobile-dropdown-item"><a href="./jacket">Academic Reporting Form</a></div>
+                                    <div class="mobile-dropdown-item mobile-menu-bottom-item"><a href="./action">EDI Action Plan</a>
+                                    </div>
                         </div>
-                    </div>
-                </li>
+                    </li> -->
             </div>
         </ol>
     </div>
     
     <!-- RANDOM BACKGROUND SHAPES -->
-    <img src="./img/Blob4.svg" class="background-blob1">
-    <img src="./img/Blob3.svg" class="background-blob2">
+    <img src="../img/Blob4.svg" class="background-blob1">
+    <img src="../img/Blob3.svg" class="background-blob2">
 
     <!-- ENG JACKET -->
     <div class="jacket-container">
@@ -228,31 +252,31 @@
         the
         Winter semester. Keep an eye on the announcements during these times so you don’t miss the day!
         <br>
-        <a href="/shop" class="cta-button"
+        <a href="" class="cta-button"
             style="position: absolute;height:auto;left:50%;transform: translate(-50%,0);margin-top:20px;">Coming
             Soon</a>
 
     </div>
 
     <!-- GALLERY -->
-    <div class="jacket-gallery-container" id="gallery-1">
+    <!-- <div class="jacket-gallery-container" id="gallery-1">
         <div class="jacket-gallery-overlay">
             <div class="jacket-gallery-wrapper">
                 <div class="jacket-gallery-content">
                     <div class="jacket-gallery-x " id="gallery-close"></div>
-                    <img class="jacket-gallery-photo initial" src="./img/shop/jacket.jpg">
-                    <img class="jacket-gallery-photo" src="./img/front2.jpg">
-                    <img class="jacket-gallery-photo" src="./img/front3.jpg">
+                    <img class="jacket-gallery-photo initial" src="../img/shop/jacket.jpg">
+                    <img class="jacket-gallery-photo" src="../img/front2.jpg">
+                    <img class="jacket-gallery-photo" src="../img/front3.jpg">
 
                     <div class="jacket-gallery-button--next"></div>
                     <div class="jacket-gallery-button--prev"></div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- BOILERSUIT -->
-    <div class="boilersuit-container">
+    <div class="boilersuit-container" id="boilersuit">
         <div class="title boilersuit-title">Boilersuit</div>
         <div class="store-photo2">
             <img src="../img/shop/boilersuit.png" style="border-radius: 40px;" height="300px" id="button-gallery-2">
@@ -289,7 +313,7 @@
         also catch a glimpse of how awesome they look when you grow your collection of patches and your boilersuit traded
         pieces. The head boilersuits also host events (like stitch and b****), challenges and giveaways!
         <br>
-        <a href="/shop" class="cta-button"
+        <a href="" class="cta-button"
             style="position: absolute;height:auto;left:50%;transform: translate(-50%,0);margin-top:20px;z-index: -1;">Coming
             Soon</a>
 
@@ -297,8 +321,8 @@
 
     <!-- FOOTER -->
     <div class="footer">
-        <a href="/" class="footer-image">
-            <img src="./img/logo_white.png" height="30px">
+        <a href="../" class="footer-image">
+            <img src="../img/logo_white.png" height="30px">
             <span style="margin-left:10px;">Western UES</span>
         </a>
         <div class="footer-text">
@@ -306,14 +330,14 @@
         </div>
 
         <div class="footer-socials">
-            <a href="https://discord.gg/b8EfQSKKbK"><img src="img/disc.png" height=20px></a>
-            <a href="https://www.instagram.com/westernues/?hl=en"><img src="img/ig.png" height=20px></a>
-            <a href="https://www.facebook.com/westernues/"><img src="img/fb.png" height=20px></a>
-            <a href="https://snapchat.com/add/westernues"><img src="img/sc.png" height=20px></a>
+            <a href="https://discord.gg/b8EfQSKKbK"><img src="../img/disc.png" height=20px></a>
+            <a href="https://www.instagram.com/westernues/?hl=en"><img src="../img/ig.png" height=20px></a>
+            <a href="https://www.facebook.com/westernues/"><img src="../img/fb.png" height=20px></a>
+            <a href="https://snapchat.com/add/westernues"><img src="../img/sc.png" height=20px></a>
         </div>
     </div>
 
-    <script src="./js/script.js"></script>
+    <script src="../js/script.js"></script>
 
 </body>
 

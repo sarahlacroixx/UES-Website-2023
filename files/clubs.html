@@ -8,14 +8,14 @@
     <meta name="description" content="Western UES">
     <meta name="author" content="UES">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css?v=1.0">
+    <link rel="stylesheet" href="../css/styles.css?v=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="manifest" href="./site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BSSNCP093Z"></script>
@@ -33,80 +33,100 @@
     <!-- MENU -->
     <div class="menu-container">
         <ol>
-            <a href="./"><img src="img/logo.png" class="menu-image"></a>
+            <a href="../index.html"><img src="../img/logo.png" class="menu-image"></a>
             <div class="menu-items">
                 <li id="menu-about">
-                    <a href="./about" class="menu-top-item">Western</a>
-                    <div class="menu-dropdown" id="western-dropdown">
-                        <div class="dropdown-item"><a href="./about">About Us</a></div>
-                        <div class="dropdown-item"><a href="./about#culture">Culture</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a href="./about#contact">Contact Us</a></div>
+                    <div class="menu-top-item">About Us</div>
+                    <div class="menu-dropdown" id="about-us-dropdown">
+                        <div class="dropdown-item"><a href="./about.html">Who Are We?</a></div>
+                        <!-- <div class="dropdown-item"><a href="./about#culture">Culture and Traditions</a></div> -->
+                        <div class="dropdown-item"><a href="./team.html">Team</a></div>
+                        <div class="dropdown-item"><a href="./spaces.html">UES Spaces</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./about.html#contact">Contact Us</a>
+                        </div>
                     </div>
                 </li>
+                <!-- <li id="menu-sponsors">
+                    <a href="./sponsors" class="menu-top-item">Sponsors</a>
+                </li> -->
                 <li id="menu-join">
-                    <a href="./join" class="menu-top-item">Join Us</a>
+                    <div class="menu-top-item">Get Involved</div>
                     <div class="menu-dropdown" id="join-dropdown">
-                        <div class="dropdown-item"><a href="./clubs">Clubs</a></div>
-                        <div class="dropdown-item"><a href="./join">Conferences</a></div>
-                        <div class="dropdown-item"><a href="./events">Events</a></div>
-                        <div class="dropdown-item"><a href="./wellness">Wellness Committee</a></div>
-                        <div class="dropdown-item"><a href="./environment">Sustainability Committee</a></div>
-                        <div class="dropdown-item"><a href="./spaces">UES Spaces</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a href="./join#blog">Blogs</a></div>
+                        <div class="dropdown-item"><a href="./clubs.html">Clubs</a></div>
+                        <!-- <div class="dropdown-item"><a href="./join.html">Conferences</a></div> -->
+                        <div class="dropdown-item"><a href="https://wellnessforce.wixsite.com/website">Wellness
+                                Committee</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./environment.html">Sustainability
+                                Committee</a></div>
+                        <!-- <div class="dropdown-item menu-bottom-item"><a href="./join#blog">Blogs</a></div> -->
                     </div>
                 </li>
-                <li id="menu-council">
-                    <a href="./team" class="menu-top-item">Team</a>
-                    <div class="menu-dropdown" id="council-dropdown">
-                        <div class="dropdown-item"><a href="./team">Executives</a></div>
-                        <div class="dropdown-item"><a href="./commissioner#council">Council Members</a></div>
-                        <div class="dropdown-item"><a href="./commissioner#yearrep">Year Reps</a></div>
-                        <div class="dropdown-item"><a href="./commissioner#commissioner">Commissioners</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a href="./commissioner#committee">Committee
-                                Members</a></div>
+                <li id="menu-events">
+                    <a href="./events.html" class="menu-top-item">Events</a>
+                    <div class="menu-dropdown" id="events-dropdown">
+                        <div class="dropdown-item"><a href="./events.html">Calendar</a></div>
+                        <div class="dropdown-item"><a href="./engtoceeps.html">Eng Goes to Ceeps</a></div>
+                        <!-- <div class="dropdown-item"><a href="./hockey.html">Eng vs. Ivey</a></div> -->
+                        <div class="dropdown-item"><a href="./engformal.html">Eng Formal</a></div>
+                        <div class="dropdown-item"><a href="./wec.html">Western Engineering
+                                Competition</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./ironring.html">Iron Ring</a></div>
+                        <!-- <div class="dropdown-item menu-bottom-item"><a href="./join#blog">Professional Development
+                                Confrence</a></div> -->
                     </div>
                 </li>
-                <li id="menu-admin">
-                    <a href="./admin" class="menu-top-item">Admin</a>
-                    <div class="menu-dropdown" id="admin-dropdown">
+                <!-- <li id="menu-council">
+                        <a href="./team" class="menu-top-item">Team</a>
+                        <div class="menu-dropdown" id="council-dropdown">
+                            <div class="dropdown-item"><a href="./team">Executives</a></div>
+                            <div class="dropdown-item"><a href="./commissioner#council">Council Members</a></div>
+                            <div class="dropdown-item"><a href="./commissioner#yearrep">Year Reps</a></div>
+                            <div class="dropdown-item"><a href="./commissioner#commissioner">Commissioners</a></div>
+                            <div class="dropdown-item menu-bottom-item"><a href="./commissioner#committee">Committee
+                                    Members</a></div>
+                        </div>
+                    </li> -->
+                <li id="menu-documents">
+                    <a href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge"
+                        class="menu-top-item">Documents</a>
+                    <div class="menu-dropdown" id="documents-dropdown">
                         <div class="dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Council
+                                href="https://drive.google.com/drive/folders/1_IP8mRQPaFDlLw1kv9Rwgoh4Yl-92XYd">Council
                                 Resources</a></div>
                         <div class="dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Exec
+                                href="https://drive.google.com/drive/folders/1GCXwhqOACgfjTnRbzsrImtn6NvyKZyx6">Exec
                                 Updates</a></div>
                         <div class="dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Finances</a>
+                                href="https://drive.google.com/drive/folders/1CMy0ac0uJzmR5H6YCs6IkJmleIg4ga-z">Finances</a>
                         </div>
-                        <div class="dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Governing
+                        <div class="dropdown-item menu-bottom-item"><a
+                                href="https://drive.google.com/drive/folders/1sXUNgB0GCBY2o4pVlNRj7EzPy5AUqtsw">Governing
                                 Docs</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">SRA</a>
+                        <!-- <div class="dropdown-item menu-bottom-item"><a
+                                    href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">SRA</a>
+                            </div> -->
+                </li>
+                <li id="menu-merch">
+                    <a href="" class="menu-top-item">Eng Merch</a>
+                    <div class="menu-dropdown" id="merch-dropdown">
+                        <!-- <div class="dropdown-item"><a href="./store">+/- Store</a></div> -->
+                        <div class="dropdown-item"><a href="./jacket.html#boilersuit">Boilersuits</a></div>
+                        <div class="dropdown-item menu-bottom-item"><a href="./jacket.html">Eng Jackets</a></div>
+                        <!-- <div class="dropdown-item"><a href="./shop">Engenda</a></div> -->
+                        <!-- <div class="dropdown-item menu-bottom-item"><a href="./jacket#boilersuit">Yearbook</a></div> -->
+                    </div>
+                </li>
+                <!-- <li id="menu-rec">
+                        <a href="./coop" class="menu-top-item">Resources</a>
+                        <div class="menu-dropdown" id="rec-dropdown">
+                            <div class="dropdown-item"><a
+                                    href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Academic
+                                    Resources</a>
+                            </div>
+                            <div class="dropdown-item menu-bottom-item"><a href="./action">Academic Reporting Form</a></div>
+                            <div class="dropdown-item menu-bottom-item"><a href="./action">EDI Action Plan</a></div> 
                         </div>
-                </li>
-                <li id="menu-store">
-                    <a href="./store" class="menu-top-item">Eng Merch</a>
-                    <div class="menu-dropdown" id="store-dropdown">
-                        <div class="dropdown-item"><a href="./shop">+/- Store</a></div>
-                        <div class="dropdown-item"><a href="./jacket#boilersuit">Boilersuits</a></div>
-                        <div class="dropdown-item menu-bottom-item"><a href="./jacket">Eng Jackets</a></div>
-                    </div>
-                </li>
-                <li id="menu-coop">
-                    <a href="./coop" class="menu-top-item">Co-op</a>
-                    <div class="menu-dropdown" id="coop-dropdown">
-                        <div class="dropdown-item menu-bottom-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Academic
-                                Resources</a></div>
-                    </div>
-                </li>
-                <li id="menu-campaign">
-                    <a href="./campaign" class="menu-top-item">EDI</a>
-                    <div class="menu-dropdown" id="campaign-dropdown">
-                        <div class="dropdown-item menu-bottom-item"><a href="./action">Action Plan</a></div>
-                    </div>
-                </li>
+                    </li> -->
             </div>
         </ol>
     </div>
@@ -123,88 +143,92 @@
             <div class="mobile-menu-items" id="menu-mobile">
 
                 <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Western</a>
+                    <a class="mobile-menu-top-item">About Us</a>
                     <div class="mobile-menu-dropdown">
-                        <div class="mobile-dropdown-item"><a href="./about">About Us</a></div>
-                        <div class="mobile-dropdown-item"><a href="./about#culture">Culture</a></div>
-                        <div class="mobile-dropdown-item"><a href="./about#contact">Contact Us</a></div>
+                        <div class="mobile-dropdown-item"><a href="./about.html">Who Are We?</a></div>
+                        <!-- <div class="mobile-dropdown-item"><a href="./about#culture">Culture and Traditions</a></div> -->
+                        <div class="mobile-dropdown-item"><a href="./team.html">Team</a></div>
+                        <div class="mobile-dropdown-item"><a href="./spaces.html">UES Spaces</a></div>
+                        <div class="mobile-dropdown-item"><a href="./about.html#contact">Contact Us</a></div>
+                    </div>
+                </li>
+                <!-- <li class="mobile-menu-item">
+                    <a href="./sponsors" class="mobile-menu-top-item">Sponsors</a>
+                </li> -->
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-top-item">Get Involved</a>
+                    <div class="mobile-menu-dropdown">
+                        <div class="mobile-dropdown-item"><a href="./clubs.html">Clubs</a></div>
+                        <!-- <div class="mobile-dropdown-item"><a href="./join">Conferences</a></div> -->
+                        <div class="mobile-dropdown-item"><a href="https://wellnessforce.wixsite.com/website">Wellness
+                                Committee</a></div>
+                        <div class="mobile-dropdown-item"><a href="./environment.html">Sustainability Committee</a>
+                        </div>
+
                     </div>
                 </li>
                 <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Join Us</a>
+                    <a class="mobile-menu-top-item">Events</a>
                     <div class="mobile-menu-dropdown">
-                        <div class="mobile-dropdown-item"><a href="./clubs">Clubs</a></div>
-                        <div class="mobile-dropdown-item"><a href="./join">Conferences</a></div>
-                        <div class="mobile-dropdown-item"><a href="./events">Events</a></div>
-                        <div class="mobile-dropdown-item"><a href="./wellness">Wellness Committee</a></div>
-                        <div class="mobile-dropdown-item"><a href="./sustainability">Sustainability Committee</a></div>
-                        <div class="mobile-dropdown-item"><a href="./spaces">UES Spaces</a></div>
-                        <div class="mobile-dropdown-item"><a href="./join#blog">Blogs</a></div>
+                        <div class="mobile-dropdown-item"><a href="./events.html">Calendar</a></div>
+                        <div class="mobile-dropdown-item"><a href="./engtoceeps.html">Eng Goes to Ceeps</a></div>
+                        <!-- <div class="mobile-dropdown-item"><a href="./hockey.html">Eng vs. Ivey</a></div> -->
+                        <div class="mobile-dropdown-item"><a href="./engformal.html">Eng Formal</a></div>
+                        <div class="mobile-dropdown-item"><a href="./wec.html">Western Engineering Competition</a>
+                        </div>
+                        <div class="mobile-dropdown-item"><a href="./ironring.html">Iron Ring</a></div>
+                        <!-- <div class="mobile-dropdown-item"><a href="./commissioner#committee">Professional Development
+                                Confrence</a></div> -->
                     </div>
                 </li>
                 <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Team</a>
-                    <div class="mobile-menu-dropdown">
-                        <div class="mobile-dropdown-item"><a href="./team">Executives</a></div>
-                        <div class="mobile-dropdown-item"><a href="./commissioner#council">Council Members</a></div>
-                        <div class="mobile-dropdown-item"><a href="./commissioner#yearrep">Year Reps</a></div>
-                        <div class="mobile-dropdown-item"><a href="./commissioner#commissioner">Commissioners & Directors</a></div>
-                        <div class="mobile-dropdown-item"><a href="./commissioner#committee">Committee Members</a></div>
-                    </div>
-                </li>
-                <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Admin</a>
+                    <a class="mobile-menu-top-item">Documents</a>
                     <div class="mobile-menu-dropdown">
                         <div class="mobile-dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Council
+                                href="https://drive.google.com/drive/folders/1_IP8mRQPaFDlLw1kv9Rwgoh4Yl-92XYd">Council
                                 Resources</a></div>
                         <div class="mobile-dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Exec
+                                href="https://drive.google.com/drive/folders/1GCXwhqOACgfjTnRbzsrImtn6NvyKZyx6">Exec
                                 Updates</a></div>
                         <div class="mobile-dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Finances</a>
+                                href="https://drive.google.com/drive/folders/1CMy0ac0uJzmR5H6YCs6IkJmleIg4ga-z">Finances</a>
                         </div>
                         <div class="mobile-dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Governing
+                                href="https://drive.google.com/drive/folders/1sXUNgB0GCBY2o4pVlNRj7EzPy5AUqtsw">Governing
                                 Docs</a></div>
-                        <div class="mobile-dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">SRA</a>
-                        </div>
                 </li>
                 <li class="mobile-menu-item">
                     <a class="mobile-menu-top-item">Eng Merch</a>
                     <div class="mobile-menu-dropdown">
-                        <div class="mobile-dropdown-item"><a href="./shop">+/- Store</a></div>
-                        <div class="mobile-dropdown-item"><a href="./jacket#boilersuit">Boilersuits</a></div>
-                        <div class="mobile-dropdown-item"><a href="./jacket">Eng Jackets</a></div>
+                        <!-- <div class="mobile-dropdown-item"><a href="./shop">+/- Store</a></div> -->
+                        <div class="mobile-dropdown-item"><a href="./jacket.html#boilersuit">Boilersuits</a></div>
+                        <div class="mobile-dropdown-item"><a href="./jacket.html">Eng Jackets</a></div>
+                        <!-- <div class="mobile-dropdown-item"><a href="./jacket">Engenda</a></div> -->
+                        <!-- <div class="mobile-dropdown-item"><a href="./jacket">Yearbook</a></div> -->
                     </div>
                 </li>
-                <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">Co-op</a>
-                    <div class="mobile-menu-dropdown">
-                        <div class="mobile-dropdown-item"><a
-                                href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Academic
-                                Resources</a></div>
-                    </div>
-                </li>
-                <li class="mobile-menu-item">
-                    <a class="mobile-menu-top-item">EDI</a>
-                    <div class="mobile-menu-dropdown" id="campaign-dropdown-mobile">
-                        <div class="mobile-dropdown-item mobile-menu-bottom-item"><a href="./action">Action Plan</a>
+                <!-- <li class="mobile-menu-item">
+                        <a class="mobile-menu-top-item">Resources</a>
+                        <div class="mobile-menu-dropdown">
+                            <div class="mobile-dropdown-item"><a
+                                    href="https://drive.google.com/drive/folders/1lU_kL6YZFE7iFjf69v10A3VZHE8471Ge">Academic
+                                    Resources</a></div>
+                                    <div class="mobile-dropdown-item"><a href="./jacket">Academic Reporting Form</a></div>
+                                    <div class="mobile-dropdown-item mobile-menu-bottom-item"><a href="./action">EDI Action Plan</a>
+                                    </div>
                         </div>
-                    </div>
-                </li>
+                    </li> -->
             </div>
         </ol>
     </div>
-
+    
     <!-- CLUBS -->
     <div class="clubs-container">
-        <div class="title clubs-title">Engineering Clubs <span style="font-size: 10px;">(Click to see more)</span></div>
+        <div class="title clubs-title">Engineering Clubs</div>
         <!-- CLUBS CARDS -->
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/aero.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/aero.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Aero Design</div>
                 </div>
@@ -215,7 +239,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/aero.jpeg">
+                            <img class="club-content-photo" src="../img/club/aero.jpeg">
                             <div class="club-content-name">Aero Design</div>
                             <div class="club-content-description">
                                 Western Aero Design Team specializes in designing, testing and flying heavy lift,
@@ -238,9 +262,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/westernaerodesign/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/WesternAeroDesign/"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
 
                                 </div>
@@ -256,7 +280,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/canadian_society_for_mech_eng.jpg);">
+            <div class="club-photo" style="background-image: url(../img/club/canadian_society_for_mech_eng.jpg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Canadian Society for Mechanical Engineering</div>
                 </div>
@@ -267,7 +291,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/canadian_society_for_mech_eng.jpg">
+                            <img class="club-content-photo" src="../img/club/canadian_society_for_mech_eng.jpg">
                             <div class="club-content-name">Canada Society for Mechanical Engineering</div>
                             <div class="club-content-description">
                                 CSME Western is the student chapter associated with the Canadian Society for Mechanical
@@ -283,7 +307,7 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.facebook.com/CSMEWestern"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
                                 </div>
                             </div>
@@ -294,7 +318,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/chem_eng.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/chem_eng.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Chemical Engineering Club</div>
                 </div>
@@ -305,7 +329,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/chem_eng.jpeg">
+                            <img class="club-content-photo" src="../img/club/chem_eng.jpeg">
                             <div class="club-content-name">Chemical Engineering Club</div>
                             <div class="club-content-description">
                                 Western Engineering’s Chem Club is the student chapter at Western University affiliated
@@ -322,7 +346,7 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.facebook.com/westernchemengclub"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
 
                                 </div>
@@ -336,7 +360,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/musical.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/musical.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Engineering Musical</div>
                 </div>
@@ -347,7 +371,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/musical.jpeg" style="width: 20vw;">
+                            <img class="club-content-photo" src="../img/club/musical.jpeg" style="width: 20vw;">
                             <div class="club-content-name">Engineering Musical</div>
                             <div class="club-content-description">
                                 The Western Engineering Musical is a club that oversees the production of the annual
@@ -374,9 +398,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/westerneng_musical/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/WesternEngMusical/"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
 
                                 </div>
@@ -390,7 +414,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/ewb.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/ewb.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Engineers Without Borders Western</div>
                 </div>
@@ -401,7 +425,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/ewb.jpeg">
+                            <img class="club-content-photo" src="../img/club/ewb.jpeg">
                             <div class="club-content-name">Engineers Without Borders Western</div>
                             <div class="club-content-description">
                                 "We invest in people. We invest in ventures. We advocate for change. At EWB, we strive
@@ -415,9 +439,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/ewbwestern/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/ewbwestern"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
 
                                 </div>
@@ -433,7 +457,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/sae.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/sae.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Formula SAE</div>
                 </div>
@@ -444,7 +468,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/sae.jpeg">
+                            <img class="club-content-photo" src="../img/club/sae.jpeg">
                             <div class="club-content-name">Formula SAE</div>
                             <div class="club-content-description">
                                 A team of passionate students with the common goal of building a world-class electric
@@ -461,8 +485,8 @@
                                 <div class="club-content-socials-text">Join Us!</div>
                                 <!-- <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
-                                        <a href="/"><img class="club-content-socials-icon" src="./img/ig.png"></a>
-                                        <a href="/"><img class="club-content-socials-icon" src="./img/fb.png"></a>
+                                        <a href="/"><img class="club-content-socials-icon" src="../img/ig.png"></a>
+                                        <a href="/"><img class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
 
                                 </div> -->
@@ -478,7 +502,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/ieee.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/ieee.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">IEEE Students' Chapter</div>
                 </div>
@@ -489,7 +513,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/ieee.jpeg">
+                            <img class="club-content-photo" src="../img/club/ieee.jpeg">
                             <div class="club-content-name">IEEE Students' Chapter</div>
                             <div class="club-content-description">
                                 Western's IEEE is a chapter of the world's largest professional organization dedicated
@@ -503,9 +527,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/ieee.western/?hl=en"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/WesternIEEE"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
                                 </div>
                                 <br>
@@ -518,7 +542,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/iec.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/iec.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Innovation & Entrepreneurship Club</div>
                 </div>
@@ -529,7 +553,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/iec.jpeg" style="width: 20vw;">
+                            <img class="club-content-photo" src="../img/club/iec.jpeg" style="width: 20vw;">
                             <div class="club-content-name">Innovation & Entrepreneurship Club</div>
                             <div class="club-content-description">
                                 The Western Engineering Innovation and Entrepreneurship Club aims to bridge the gap
@@ -548,9 +572,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/we.innovation.entrepreneurship/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/we.innovation.entrepreneurship"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
 
                                 </div>
@@ -562,7 +586,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/nuclear.jpg);">
+            <div class="club-photo" style="background-image: url(../img/club/nuclear.jpg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">North American Young Generation Nuclear</div>
                 </div>
@@ -573,7 +597,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/nuclear.jpg">
+                            <img class="club-content-photo" src="../img/club/nuclear.jpg">
                             <div class="club-content-name">North American Young Generation Nuclear</div>
                             <div class="club-content-description">
                                 The mission of NAYGN Western is to educate students about nuclear energy and the
@@ -586,9 +610,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/naygnwestern/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/groups/1020441918340907"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
 
                                 </div>
@@ -604,7 +628,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/rocketry.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/rocketry.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Western Rocketry Club</div>
                 </div>
@@ -615,7 +639,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/rocketry.jpeg">
+                            <img class="club-content-photo" src="../img/club/rocketry.jpeg">
                             <div class="club-content-name">Western Rocketry Club</div>
                             <div class="club-content-description">
                                 The Rocketry Club incorporates the key principles taught in many engineering disciplines
@@ -629,7 +653,7 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.facebook.com/WERocketry"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
                                 </div>
                                 <br>
@@ -644,7 +668,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/sseo.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/sseo.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Student Software Engineering Club</div>
                 </div>
@@ -655,7 +679,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/sseo.jpeg">
+                            <img class="club-content-photo" src="../img/club/sseo.jpeg">
                             <div class="club-content-name">Student Software Engineering Club</div>
                             <div class="club-content-description">
                                 The Student Software Engineering Organization (SSEO), is a club that operates to further
@@ -672,8 +696,8 @@
                                 <div class="club-content-socials-text">Join Us!</div>
                                 <!-- <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
-                                        <a href="/"><img class="club-content-socials-icon" src="./img/ig.png"></a>
-                                        <a href="/"><img class="club-content-socials-icon" src="./img/fb.png"></a>
+                                        <a href="/"><img class="club-content-socials-icon" src="../img/ig.png"></a>
+                                        <a href="/"><img class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
                                 </div> -->
                                 <br>
@@ -686,7 +710,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/Sunstang.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/Sunstang.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Sunstang</div>
                 </div>
@@ -697,7 +721,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/Sunstang.jpeg">
+                            <img class="club-content-photo" src="../img/club/Sunstang.jpeg">
                             <div class="club-content-name">Sunstang</div>
                             <div class="club-content-description">
                                 Engineering is all about innovation, and what's more innovative than a car that runs
@@ -717,9 +741,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/westernsunstang/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/WesternSunstangSolarCarProject/"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
                                 </div>
                                 <br>
@@ -736,7 +760,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/bots.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/bots.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">WE Bots</div>
                 </div>
@@ -747,7 +771,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/bots.jpeg">
+                            <img class="club-content-photo" src="../img/club/bots.jpeg">
                             <div class="club-content-name">WE Bots</div>
                             <div class="club-content-description">
                                 Are you interested in learning about the world of robotics? Join WE Bots to gain
@@ -760,7 +784,7 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.facebook.com/groups/203947086327911"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
 
                                 </div>
@@ -776,7 +800,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/mars.jpg);">
+            <div class="club-photo" style="background-image: url(../img/club/mars.jpg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">WE Mars</div>
                 </div>
@@ -787,7 +811,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/mars.jpg">
+                            <img class="club-content-photo" src="../img/club/mars.jpg">
                             <div class="club-content-name">WE Mars</div>
                             <div class="club-content-description">
                                 Calling all robot and space lovers! WE MARS Robotics Club takes part in 2 projects
@@ -801,8 +825,8 @@
                                 <div class="club-content-socials-text">Join Us!</div>
                                 <div class="club-content-socials-icons">
                                     <!--<div class="club-content-socials-icon-wrapper">
-                                    <a href="/"><img class="club-content-socials-icon" src="./img/ig.png"></a>
-                                    <a href="/"><img class="club-content-socials-icon" src="./img/fb.png"></a>
+                                    <a href="/"><img class="club-content-socials-icon" src="../img/ig.png"></a>
+                                    <a href="/"><img class="club-content-socials-icon" src="../img/fb.png"></a>
                                 </div> -->
 
                                 </div>
@@ -816,7 +840,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/hyperloop3.png);">
+            <div class="club-photo" style="background-image: url(../img/club/hyperloop3.png);">
                 <div class="club-name-wrapper">
                     <div class="club-name">WE Trillium Hyperloop</div>
                 </div>
@@ -827,7 +851,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/hyperloop2.png">
+                            <img class="club-content-photo" src="../img/club/hyperloop2.png">
                             <div class="club-content-name">WE Trillium Hyperloop</div>
                             <div class="club-content-description">
                                 Trillium Hyperloop is a team of students from Western University focused on innovating,
@@ -840,11 +864,11 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/we.hyped/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/we.hyped"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                         <a href="https://www.linkedin.com/company/trillium-hyperloop/"><img
-                                                class="club-content-socials-icon" src="./img/in.png"></a>
+                                                class="club-content-socials-icon" src="../img/in.png"></a>
                                     </div>
 
                                 </div>
@@ -858,7 +882,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/baja.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/baja.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Western Baja SAE</div>
                 </div>
@@ -869,7 +893,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/baja.jpeg">
+                            <img class="club-content-photo" src="../img/club/baja.jpeg">
                             <div class="club-content-name">Western Baja SAE</div>
                             <div class="club-content-description">
                                 Western Baja SAE is comprised of a team of hard-working students dedicated to designing,
@@ -882,9 +906,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/westernbajaracing/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/WesternBajaSae/"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
                                 </div>
                                 <br>
@@ -899,7 +923,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/engiqueers.png);">
+            <div class="club-photo" style="background-image: url(../img/club/engiqueers.png);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Western EngiQueers</div>
                 </div>
@@ -910,7 +934,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/engiqueers.png">
+                            <img class="club-content-photo" src="../img/club/engiqueers.png">
                             <div class="club-content-name">Western EngiQueers</div>
                             <div class="club-content-description">
                                 The Western EngiQueers is a social connection and advocacy group for the LGBTQ+ and ally
@@ -929,9 +953,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/westernengiqueers/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/WesternEngiQueers"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
                                 </div>
                                 <br>
@@ -946,7 +970,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/biomed.jpg);">
+            <div class="club-photo" style="background-image: url(../img/club/biomed.jpg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Western Engineering Biomedical Club</div>
                 </div>
@@ -957,7 +981,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/biomed.jpg">
+                            <img class="club-content-photo" src="../img/club/biomed.jpg">
                             <div class="club-content-name">Western Engineering Biomedical Club</div>
                             <div class="club-content-description">
                                 WEBMC brings together students in various disciplines and allows them to pursue their
@@ -973,9 +997,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/westernengbiomedclub/?hl=en"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/WEBioMedClub"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
                                 </div>
                                 <br>
@@ -990,7 +1014,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/chemecar.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/chemecar.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Western Engineering Chem-E-Car Team</div>
                 </div>
@@ -1001,7 +1025,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/chemecar.jpeg">
+                            <img class="club-content-photo" src="../img/club/chemecar.jpeg">
                             <div class="club-content-name">Western Engineering Chem-E-Car Team</div>
                             <div class="club-content-description">
                                 The Chem-E-Car team is the first of its kind in Western University. Our goal is to build
@@ -1016,9 +1040,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/westernchemecar/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/westernengineeringecar"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
                                 </div>
                                 <br>
@@ -1033,7 +1057,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/concrete.jpg);">
+            <div class="club-photo" style="background-image: url(../img/club/concrete.jpg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Western Engineering Concrete Canoe Association</div>
                 </div>
@@ -1044,7 +1068,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/concrete.jpg">
+                            <img class="club-content-photo" src="../img/club/concrete.jpg">
                             <div class="club-content-name">Western Engineering Concrete Canoe Association</div>
                             <div class="club-content-description">
                                 The Western Engineering Concrete Canoe Association (WECCA) designs, builds, and races a
@@ -1057,9 +1081,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/wecca.uwo/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/wecca.uwo/"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
 
                                 </div>
@@ -1073,7 +1097,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/west.png);">
+            <div class="club-photo" style="background-image: url(../img/club/west.png);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Western Engineering Satellite Team</div>
                 </div>
@@ -1084,7 +1108,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/west.png">
+                            <img class="club-content-photo" src="../img/club/west.png">
                             <div class="club-content-name">Western Engineering Satellite Team</div>
                             <div class="club-content-description">
                                 The Western Engineering Satellite Team (WEST) is a group of highly motivated students
@@ -1102,9 +1126,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/westernengineeringsatellite/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/westernengineeringsatellite"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
 
                                 </div>
@@ -1118,7 +1142,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/toboggan.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/toboggan.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Western Engineering Toboggan Team</div>
                 </div>
@@ -1129,7 +1153,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/toboggan.jpeg">
+                            <img class="club-content-photo" src="../img/club/toboggan.jpeg">
                             <div class="club-content-name">Western Engineering Toboggan Team</div>
                             <div class="club-content-description">
                                 Looking for hands on experience, a tight-knit team culture, and the opportunity to make
@@ -1147,10 +1171,10 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/wetter_is_better/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a
                                             href="https://www.facebook.com/The-Western-Engineering-Toboggan-Team-131325453583599/"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
 
                                 </div>
@@ -1166,7 +1190,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/civil.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/civil.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Western Society of Civil Engineering</div>
                 </div>
@@ -1177,7 +1201,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/civil.jpeg">
+                            <img class="club-content-photo" src="../img/club/civil.jpeg">
                             <div class="club-content-name">Western Society of Civil Engineering</div>
                             <div class="club-content-description">
                                 The purpose of the Western Society of Civil Engineering (WSCE) is to enrich the
@@ -1194,9 +1218,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/wsce_/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/WSCEFP"><img class="club-content-socials-icon"
-                                                src="./img/fb.png"></a>
+                                                src="../img/fb.png"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1207,7 +1231,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/steel.png);">
+            <div class="club-photo" style="background-image: url(../img/club/steel.png);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Western Steel Bridge Team</div>
                 </div>
@@ -1218,7 +1242,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/steel.png">
+                            <img class="club-content-photo" src="../img/club/steel.png">
                             <div class="club-content-name">Western Steel Bridge Team</div>
                             <div class="club-content-description">
                                 The purpose of the Western Society of Civil Engineering (WSCE) is to enrich the
@@ -1235,9 +1259,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/uwosteelbridge/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/westernsteelbridge"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
 
                                 </div>
@@ -1251,7 +1275,7 @@
         </div>
 
         <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/women.jpeg);">
+            <div class="club-photo" style="background-image: url(../img/club/women.jpeg);">
                 <div class="club-name-wrapper">
                     <div class="club-name">Women in Engineering</div>
                 </div>
@@ -1262,7 +1286,7 @@
                     <div class="club-content">
                         <div class="club-content-x" id="club-close"></div>
                         <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/women.jpeg">
+                            <img class="club-content-photo" src="../img/club/women.jpeg">
                             <div class="club-content-name">Women in Eng</div>
                             <div class="club-content-description">
                                 Women in Engineering at Western University is a student group working to empower and
@@ -1282,9 +1306,9 @@
                                 <div class="club-content-socials-icons">
                                     <div class="club-content-socials-icon-wrapper">
                                         <a href="https://www.instagram.com/womeninenguwo/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
+                                                class="club-content-socials-icon" src="../img/ig.png"></a>
                                         <a href="https://www.facebook.com/womeninenguwo"><img
-                                                class="club-content-socials-icon" src="./img/fb.png"></a>
+                                                class="club-content-socials-icon" src="../img/fb.png"></a>
                                     </div>
                                 </div>
                                 <br>
@@ -1300,63 +1324,12 @@
             </div>
         </div>
 
-        <div class="club-card">
-            <div class="club-photo" style="background-image: url(./img/club/women.jpeg);">
-                <div class="club-name-wrapper">
-                    <div class="club-name">Chem Eng Club</div>
-                </div>
-            </div>
-            <!-- CLUB CONTENT -->
-            <div class="club-content-wrapper" id="club-content">
-                <div class="club-content-bg">
-                    <div class="club-content">
-                        <div class="club-content-x" id="club-close"></div>
-                        <div class="club-content-text">
-                            <img class="club-content-photo" src="./img/club/women.jpeg">
-                            <div class="club-content-name">Chem E Club</div>
-                            <div class="club-content-description">
-                                <!-- Women in Engineering at Western University is a student group working to empower and
-                                encourage current and perspective female students in the field of engineering. We
-                                provide support and opportunities to increase women in engineering enrollment and
-                                retention. Our mission is to provide academic and social guidance to current female
-                                engineering students, and opportunities to network and build relationships with one
-                                another. WIE was created in 1989 to increase the female representation in Western's
-                                engineering program. Since then, female enrollment in Engineering at Western has
-                                increased from 9% to 22% (last year). WIE has initiated activities and events to
-                                encourage female engineering students to get to know each other, to help orient new
-                                female students to university life, to encourage female high school students to enter
-                                engineering, and to provide a support network for career development. -->
-                            </div>
-                            <div class="club-content-socials">
-                                <div class="club-content-socials-text">Join Us!</div>
-                                <div class="club-content-socials-icons">
-                                    <div class="club-content-socials-icon-wrapper">
-                                        <a href="https://www.instagram.com/womeninenguwo/"><img
-                                                class="club-content-socials-icon" src="./img/ig.png"></a>
-                                        <a href="https://www.facebook.com/womeninenguwo"><img class="club-content-socials-icon"
-                                                src="./img/fb.png"></a>
-                                    </div>
-                                </div>
-                                <!-- <br>
-                                https://www.facebook.com/womeninenguwo
-                                <br>
-                                https://www.linkedin.com/company/women-in-eng-uwo/
-                                <br>
-                                https://womeninenguwo.ca/ -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
     </div>
 
     <!-- FOOTER -->
     <div class="footer">
-        <a href="/" class="footer-image">
-            <img src="./img/logo_white.png" height="30px">
+        <a href="../" class="footer-image">
+            <img src="../img/logo_white.png" height="30px">
             <span style="margin-left:10px;">Western UES</span>
         </a>
         <div class="footer-text">
@@ -1364,64 +1337,14 @@
         </div>
 
         <div class="footer-socials">
-            <a href="https://discord.gg/b8EfQSKKbK"><img src="img/disc.png" height=20px></a>
-            <a href="https://www.instagram.com/westernues/?hl=en"><img src="img/ig.png" height=20px></a>
-            <a href="https://www.facebook.com/westernues/"><img src="img/fb.png" height=20px></a>
-            <a href="https://snapchat.com/add/westernues"><img src="img/sc.png" height=20px></a>
+            <a href="https://discord.gg/b8EfQSKKbK"><img src="../img/disc.png" height=20px></a>
+            <a href="https://www.instagram.com/westernues/?hl=en"><img src="../img/ig.png" height=20px></a>
+            <a href="https://www.facebook.com/westernues/"><img src="../img/fb.png" height=20px></a>
+            <a href="https://snapchat.com/add/westernues"><img src="../img/sc.png" height=20px></a>
         </div>
     </div>
 
-
-    <script>
-        function fadeIn(element) {
-            var op = 0.1; // initial opacity
-            element.style.display = "block";
-            var timer = setInterval(function () {
-                if (op >= 1) {
-                    clearInterval(timer);
-                }
-                element.style.opacity = op;
-                element.style.filter = "alpha(opacity=" + op * 100 + ")";
-                op += op * 0.1;
-            }, 8);
-        }
-
-        function fadeOut(element) {
-            var op = 1; // initial opacity
-            var timer = setInterval(function () {
-                if (op <= 0.1) {
-                    clearInterval(timer);
-                    element.style.display = "none";
-                }
-                element.style.opacity = op;
-                element.style.filter = "alpha(opacity=" + op * 100 + ")";
-                op -= op * 0.1;
-            }, 8);
-        }
-
-        //CLUBS
-        let clubContentBtn = document.getElementsByClassName("club-name-wrapper");
-        let clubCard = document.getElementsByClassName("club-name-wrapper");
-        let clubContentClose = document.getElementsByClassName("club-content-x");
-        //let clubContent = document.getElementById("club-content");
-
-        for (let i = 0; i < clubContentBtn.length; i++) {
-            clubContentBtn[i].addEventListener("click", function () {
-                fadeIn(
-                    clubContentBtn[i].parentElement.parentElement.querySelector(
-                        ".club-content-wrapper"
-                    )
-                );
-            });
-            clubContentClose[i].addEventListener("click", function () {
-                fadeOut(
-                    clubContentBtn[i].parentElement.parentElement.querySelector(
-                        ".club-content-wrapper"
-                    )
-                );
-            });
-        }</script>
-    <script src="./js/script.js"></script>
+    <script src="../js/script.js"></script>
 
 </body>
 

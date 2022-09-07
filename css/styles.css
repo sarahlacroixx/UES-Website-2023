@@ -917,6 +917,7 @@ body ol li a {
     background-image: url("../img/events/IMG_2800.JPG");
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     width: 100vw;
     height: 30vw;
     margin: 0 auto;
@@ -949,8 +950,8 @@ body ol li a {
     background-image: url("../img/events/pngwing.com.png");
     background-position: center;
     background-size: cover;
-    width: 25em;
-    height: 30em;
+    width: 30em;
+    height: 40em;
     position: relative;
     display: flex;
     align-items: center;
@@ -964,7 +965,7 @@ body ol li a {
     flex-direction: column;
     justify-content: space-between;
     text-align: justify;
-    height: 20em;
+    height: 25em;
     width: 15em;
 }
 
@@ -1195,7 +1196,7 @@ body ol li a {
 /* WEEKLY EVENTS */
 .events-nav {
     background-color: rgb(78, 38, 131);
-    margin: 20px 0px auto;
+    margin: 0px 0px auto;
     padding: 10px 10vw;
     display: flex;
     align-items: center;
@@ -1374,7 +1375,7 @@ body ol li a {
 }
 
 .jacket-title {
-    text-align: center;
+    text-align: right;
     padding-bottom: 10px;
 }
 
@@ -1388,7 +1389,7 @@ body ol li a {
 }
 
 .boilersuit-title {
-    text-align: center;
+    text-align: left;
     padding-bottom: 10px;
 }
 

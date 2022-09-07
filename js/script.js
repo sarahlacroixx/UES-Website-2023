@@ -165,8 +165,8 @@ let docMenu = document.getElementById("menu-documents");
 let docDropdown = document.getElementById("documents-dropdown");
 let merchMenu = document.getElementById("menu-merch");
 let merchDropdown = document.getElementById("merch-dropdown");
-let recMenu = document.getElementById("menu-rec");
-let recDropdown = document.getElementById("rec-dropdown");
+// let recMenu = document.getElementById("menu-rec");
+// let recDropdown = document.getElementById("rec-dropdown");
 
 aboutMenu.addEventListener("mouseenter", function () {
   fadeIn(aboutDropdown);
@@ -209,13 +209,13 @@ merchMenu.addEventListener("mouseleave", function () {
   fadeOut(merchDropdown);
 });
 
-recMenu.addEventListener("mouseenter", function () {
-  fadeIn(recDropdown);
-});
+// recMenu.addEventListener("mouseenter", function () {
+//   fadeIn(recDropdown);
+// });
 
-recMenu.addEventListener("mouseleave", function () {
-  fadeOut(recDropdown);
-});
+// recMenu.addEventListener("mouseleave", function () {
+//   fadeOut(recDropdown);
+// });
 
 //MOBILE MENU
 let mobileMenu = document.getElementById("menu-mobile");
