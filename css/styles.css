@@ -1699,7 +1699,7 @@ body ol li a {
 .council-description {
     font-weight:400px;
     font-size: 14px;
-    display: none;
+    display: block;
 }
 
 /* CLUBS */
