@@ -97,6 +97,7 @@ body ol li a {
 
 .menu-top-item {
     white-space: nowrap;
+    color: black;
 }
 
 .menu-top-item:hover {
