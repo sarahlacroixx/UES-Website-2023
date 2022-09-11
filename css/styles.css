@@ -13,9 +13,10 @@ body {
 /* VARS */
 :root {
     --bodyColor: #FFFAFA;
-    --mainColor: #4F2683;
+    --mainColor: rgb(78, 38, 130);
+    --buttonPress: rgb(101, 60, 153);
     --menuFontColor: rgb(90, 84, 84);
-    --accentColorDark: rgba(153, 120, 173, 0.25);
+    --accentColorDark: rgba(153, 120, 173, 0.35);
     --accentColorLight: rgba(116, 185, 154, 0.25);
     --footerColor: #312c2b;
 }
@@ -44,14 +45,15 @@ body {
 }
 
 .title {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 /* MENU */
 .menu-container {
     display: flex;
-    margin-bottom: 12px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 body ol {
@@ -91,6 +93,11 @@ body ol li {
 body ol li a {
     text-decoration: none;
     color:var(--menuFontColor);
+}
+
+.menu-top-item {
+    white-space: nowrap;
+    color: black;
 }
 
 .menu-top-item:hover {
@@ -901,7 +908,315 @@ body ol li a {
     transform: translateY(-50%);
 }
 
+/* EngToCeeps Page */
+.engtoceeps-container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.ceeps-photo {
+    background-image: url("../img/events/IMG_2800.JPG");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 30vw;
+    margin: 0 auto;
+    position: relative;
+}
+
+.photo-backdrop {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ceeps-title {
+    color: white;
+    text-align: center;
+    line-height: 100%;
+}
+
+.ceeps-container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+}
+
+.scroll {
+    background-image: url("../img/events/pngwing.com.png");
+    background-position: center;
+    background-size: cover;
+    width: 30em;
+    height: 40em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-text-container {
+    font-family: 'Almendra Display', cursive;
+    font-weight: Bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    height: 25em;
+    width: 15em;
+}
+
+.ceeps-info {
+    width: 20em;
+    height: 15em;
+    padding: 60px;
+    background: var(--mainColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    border-radius: 20px; 
+}
+
+/* WEC Page */
+.wec-title {
+    background-image: linear-gradient(0deg, var(--accentColorDark), var(--accentColorDark)), url(../img/events/wec/15975313_10158047622485114_4628113753589200649_o.jpg);
+    min-height: 100%;
+    height: 20vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .wec-title, .iron-ring-title {
+        height: 50vw;
+    }
+}
+
+.wec-container {
+    display: flex;
+    margin: 30px auto;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.signup {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.signup button {
+    background-color: var(--mainColor);
+    width: 150px;
+    border: none;
+    color: white;
+    margin: 10px 0px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.signup button:hover {
+    background-color: var(--buttonPress);
+}
+
+/* Iron Ring Page */
+.iron-ring-title {
+    background-image: linear-gradient(0deg, var(--accentColorDark), var(--accentColorDark)), url(../img/events/ironring/IMG_4443.jpg);
+    min-height: 100%;
+    height: 30vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.ir-description {
+    margin: 20px auto;
+    min-width: 50%;
+}
+
+/* Slideshow */
+.slideshow-container {
+    max-width: 500px;
+}
+
+.myslide {
+    display: none;
+}
+
+.myslide img {
+    border: #3b3b3b;
+    border-radius: 20px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #3b3b3b;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* Formal Page */
+.formal-title {
+    background-image: url(../img/events/formal/DSC_0195.JPG);
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100vw; */
+    height: 30vw;
+    min-height: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formal-title div {
+    color: white;
+}
+
+.description {
+    background: var(--mainColor);
+    border-radius: 20px;
+    color: white;
+    padding: 15px 30px;
+    width: 30%;
+    text-align: justify;
+}
+
+.description a {
+    color: white;
+}
+
+.images img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.grid {
+    display: grid;
+    width: 40vw;
+    height: 40vw;
+    grid-template-columns: repeat(5 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.A {
+    background-image: url("../img/events/formal/DSC_0996.JPG");
+    background-position: center;
+    background-size: cover;
+    grid-area: 1/2/span 3/span 3;
+    border-radius: 20px;
+}
+
+.B {
+    background-image: url("../img/events/formal/DSC_1119.JPG");
+    background-position: center;
+        background-size: cover;
+    grid-area: 2/3/span 3/span 3;
+    border-radius: 20px;
+}
+
+.C {
+    background-image: url("../img/events/formal/IMG_0718.JPG");
+    background-position: center;
+        background-size: cover;
+    grid-area: 3/1/span 3/span 3;
+    border-radius: 20px;
+}
+
+.D {
+    background-image: url("../img/events/formal/IMG_0730.JPG");
+    background-position: center;
+        background-size: cover;
+    grid-area: 5/3/span 3/span 3;
+    border-radius: 20px;
+}
+
+.formal-container {
+    height: 100%;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 /* WEEKLY EVENTS */
+.events-nav {
+    background-color: rgb(78, 38, 131);
+    margin: 0px 0px auto;
+    padding: 10px 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    overflow-x: auto;
+}
+
+.events-nav-items {
+    width: 100%;
+    white-space: nowrap;
+}
+
+.events-nav-items a  {
+    color:white;
+    margin: 10px;
+}
+
 .weekly-events-container {
     width:80vw;
     margin:0 auto;
@@ -909,8 +1224,9 @@ body ol li a {
 }
 
 .weekly-events-title {
-    width: 100%;
+    min-width: 100%;
     text-align: center;
+    flex-wrap: nowrap;
 }
 
 .events-container {
@@ -1061,7 +1377,7 @@ body ol li a {
 }
 
 .jacket-title {
-    text-align: center;
+    text-align: right;
     padding-bottom: 10px;
 }
 
@@ -1075,7 +1391,7 @@ body ol li a {
 }
 
 .boilersuit-title {
-    text-align: center;
+    text-align: left;
     padding-bottom: 10px;
 }
 
@@ -1276,6 +1592,10 @@ body ol li a {
 }
 
 /* TEAM */
+.team-title {
+    margin-top: 20px;
+}
+
 .team-container {
     display: flex;
     flex-flow: row wrap;
@@ -1293,9 +1613,11 @@ body ol li a {
     border-radius: 20px;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
     transition:transform 0.2s;
-    cursor: pointer;
     text-align: left;
     background-color: var(--bodyColor);
+    display: flex;
+    align-items: center;
+    justify-content: space space-around;
 }
 
 .exec-card:hover {
@@ -1304,7 +1626,7 @@ body ol li a {
 }
 
 .exec-photo {
-    width:15rem;
+    width: 50rem;
     height:15rem;
     background-position: center;
     background-size: cover;
@@ -1315,6 +1637,7 @@ body ol li a {
 
 .exec-text {
     padding:10px;
+    width: 200rem;
 }
 
 .exec-name {
@@ -1377,7 +1700,7 @@ body ol li a {
 .council-description {
     font-weight:400px;
     font-size: 14px;
-    display: none;
+    display: block;
 }
 
 /* CLUBS */
@@ -1392,6 +1715,7 @@ body ol li a {
 }
 
 .clubs-title {
+    margin-top: 20px;
     width: 100%;
     padding-bottom: 20px;
 }
@@ -1524,7 +1848,7 @@ body ol li a {
 }
 
 .club-content-description {
-
+    text-align: justify;
 }
 
 .club-content-socials {
@@ -1652,6 +1976,36 @@ body ol li a {
 }
 
 .sustainability-title {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 1), var(--accentColorDark)), url(../img/sustainability/campus.png);
+    min-height: 100%;
+    height: 25vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sust-events-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.sust-events {
+    background-color: white;
+    height: 20px;
+    min-width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .sustainability-logo {
@@ -1669,11 +2023,18 @@ body ol li a {
     position: relative;
     transition-duration: 200ms;
     cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
 .sustainability-photo:hover {
-    transform: scale(1.05);
-    transition-duration: 200ms;
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .sustainability-subtitle {
@@ -1694,14 +2055,16 @@ body ol li a {
 
 .sustainability-fact {
     color:white;
-    background-color: var(--mainColor);
-    border-radius: 20px;
-    margin: 10px;
     padding: 15px;
 }
 
 .sustainability-tip {
     display: none;
+    background-color: var(--mainColor);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -1789,21 +2152,54 @@ body ol li a {
 }
 
 /* SPACES */
+.spaces-title {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainColor);
+    color: white;
+}
+
 .spaces-container {
     margin: 0 auto;
-    width:60vw;
-    padding:20px;
+    width:65vw;
+    padding: 20px 20px;
     padding-bottom: 80px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.lounge-text-container {
+    height: auto;
+    width: 30rem;
+}
+
+.photo-with-text {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .discord-container {
     margin: 0 auto;
-    width:60vw;
-    padding:20px;
-    padding-bottom: 80px;
-    margin-bottom: 30px;
     text-align: right;
+}
+
+.button1 {
+    background-color: var(--mainColor);
+    max-height: 100px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
 }
 
 /* RESPONSIVE STUFF *//* RESPONSIVE STUFF *//* RESPONSIVE STUFF *//* RESPONSIVE STUFF */
