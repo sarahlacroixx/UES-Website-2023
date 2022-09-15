@@ -1652,6 +1652,7 @@ body ol li a {
 
 .council-card {
     width:250px;
+    height: 400px;
     margin:10px;
     padding-bottom: 10px;
     border-radius: 20px;
@@ -1687,6 +1688,7 @@ body ol li a {
     font-weight:400px;
     font-size: 14px;
     display: block;
+    padding: 10px;
 }
 
 /* CLUBS */
